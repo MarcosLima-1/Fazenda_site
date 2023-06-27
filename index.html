@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<script src="https://kit.fontawesome.com/6ffe26f1f6.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+		<link rel="stylesheet" type="text/css" href="./css/header.css" />
+		<link rel="stylesheet" type="text/css" href="./css/footer.css" />
+		<title>Fazenda</title>
+	</head>
+	<body>
+		<header id="header">
+			<div class="header" id="header_css">
+				<nav class="Menu_options">
+					<div class="logo">
+						<i class="fa-solid fa-crown"></i>
+						<h2 class="stext">MarcosDev</h2>
+					</div>
+					<ul class="Menu_options_list">
+						<li><a href="#about_me">About Me</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact" class="button bcontact">Contact Me</a></li>
+					</ul>
+				</nav>
+				<button class="button" id="menu_bar_button" onclick="toggleDiv()"><i class="fa-solid fa-bars"></i></button>
+			</div>
+			<nav class="menu_bar_nav" id="menu_bar_nav">
+				<ul class="Menu_bar">
+					<li><a onclick="toggleDiv()" class="button" href="#about_me">About Me</a></li>
+					<li><a onclick="toggleDiv()" class="button" href="#skills">Skills</a></li>
+					<li><a onclick="toggleDiv()" class="button" href="#projects">Projects</a></li>
+					<li><a onclick="toggleDiv()" class="button" href="#contact">Contact Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<footer>
+			<div class="Divisor_do_Footer">
+				<!-- footer_Social_links_footer -->
+
+				<nav class="Social_links_footer">
+					<a href="./index.html"><img src="./img/Logo.png" alt="logo" class="logo_icon" /></a>
+					<p class="texto_motivacao">Impulsione o seu negócio com a gente e alcance resultados extraordinários!</p>
+					<ul>
+						<li>
+							<a href="dummy.html" class="icons_sociais" id="Instagram_icon"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></a>
+						</li>
+						<li>
+							<a href="dummy.html" class="icons_sociais" id="Facebook_icon"><i class="fa-brands fa-facebook-f" aria-label="Facebook"></i></a>
+						</li>
+						<li>
+							<a href="dummy.html" class="icons_sociais" id="Whatsapp_icon"><i class="fa-brands fa-whatsapp" aria-label="Whatsapp"></i></a>
+						</li>
+					</ul>
+				</nav>
+
+				<!-- footer_Sobre_empresa -->
+
+				<nav class="Sobre_empresa">
+					<ul class="Footer_links">
+						<li>
+							<h3><strong>Sobre nós</strong></h3>
+						</li>
+						<li><a href="./dummy.html">Quem somos</a></li>
+						<li><a href="./dummy.html">Quero ser Parceiro</a></li>
+						<li><a href="./dummy.html">Trabalhe conosco</a></li>
+					</ul>
+				</nav>
+
+				<!-- footer_Ferramentas -->
+
+				<nav class="Ferramentas">
+					<ul class="Footer_links">
+						<li>
+							<h3><strong>Plataforma</strong></h3>
+						</li>
+						<li><a href="./dummy.html">Ferramentas</a></li>
+						<li><a href="./precos.html">Preços</a></li>
+						<li><a href="./dummy.html">Central de ajuda</a></li>
+						<li><a href="./dummy.html">Estado do serviço</a></li>
+					</ul>
+				</nav>
+
+				<!-- footer_Newsletter -->
+
+				<nav class="Newsletter">
+					<ul>
+						<li>
+							<h3><strong>Inscreva-se</strong></h3>
+						</li>
+						<li>
+							<p>Coloque seu email para ser notificado sobre as nossas novidades pela nossa newletter</p>
+						</li>
+						<li>
+							<input type="email" id="email_box" placeholder="Insira seu Email aqui" /><button id="email_button">
+								<i class="fa-solid fa-envelope"></i>
+							</button>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- footer_Legal -->
+
+			<nav class="Legal">
+				<ul>
+					<li><a href="./termos.html">Termos e condições</a></li>
+					<li><a href="./privacidade.html">Politica de privacidade</a></li>
+					<li>
+						<p>copyright <i class="fa-regular fa-copyright"></i> 2023 Analytrick</p>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+	<script src="./js/Index.js"></script>
+</html>
