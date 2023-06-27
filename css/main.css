@@ -1,0 +1,36 @@
+/* ---------- main ---------- */
+
+main {
+	display: grid;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.vh1 {
+	height: 100vh;
+}
+
+.vh2 {
+	height: 80vh;
+}
+
+.bg1 {
+	background-color: var(--secondary-button);
+}
+
+/* ---------- section 1 ---------- */
+
+section {
+	padding: 2rem 0 2rem 0;
+}
+
+.section_1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 90%;
+	gap: 1rem;
+	margin: auto;
+}
