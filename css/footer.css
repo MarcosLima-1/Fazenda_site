@@ -2,7 +2,6 @@
 
 footer {
 	width: 100%;
-	border-radius: 28px 28px 0 0;
 	background-color: var(--secondary-button);
 }
 
@@ -10,7 +9,7 @@ footer {
 
 .Divisor_do_Footer {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	padding: 2rem;
 	gap: 1rem;
 	justify-items: center;
@@ -28,6 +27,10 @@ footer {
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
+}
+
+.logo_icon {
+	font-size: 3rem;
 }
 
 .Social_links_footer ul {
@@ -88,14 +91,14 @@ footer {
 	gap: 1rem;
 }
 
-.Footer_links li {
+.Footer_links {
 	transition: color 0.3s ease;
 }
 
-.Footer_links li:hover {
+.Footer_links:hover {
 	transform: scale(1.05);
 }
-.Footer_links li:active {
+.Footer_links:active {
 	transform: scale(0.95);
 }
 
@@ -189,4 +192,75 @@ footer {
 
 	background-color: var(--color-Accent-darker);
 	animation: growCircle 0.2s ease forwards;
+}
+
+@media screen and (max-width: 1030px) {
+	.Divisor_do_Footer {
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.Social_links_footer {
+		order: 1;
+	}
+
+	.Sobre_empresa {
+		order: 4;
+	}
+
+	.Ferramentas {
+		order: 2;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.Divisor_do_Footer {
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.Social_links_footer {
+		margin-top: 30px;
+		text-align: center;
+		order: 1;
+	}
+
+	.Sobre_empresa {
+		margin-top: 30px;
+		text-align: center;
+		order: 2;
+	}
+
+	.Ferramentas {
+		margin-top: 30px;
+		text-align: center;
+		order: 3;
+	}
+
+	.Legal ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		margin-right: 0;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.Legal li {
+		margin-bottom: 4px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.Divisor_do_Footer {
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		grid-template-columns: repeat(1, 1fr);
+		padding: 1rem 1.5rem;
+	}
 }

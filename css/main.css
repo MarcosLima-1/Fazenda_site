@@ -21,7 +21,13 @@ main {
 /* ---------- section 1 ---------- */
 
 section {
-	padding: 2rem 0 2rem 0;
+	background-image: url("../assets/Fazenda.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 100%;
+	height: 100vh;
 }
 
 .section_1 {
@@ -33,4 +39,12 @@ section {
 	width: 90%;
 	gap: 1rem;
 	margin: auto;
+}
+
+.glass {
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	width: 100%;
+	height: 100vh;
 }
