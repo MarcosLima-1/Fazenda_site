@@ -25,7 +25,7 @@ main {
 /* ---------- section 1 ---------- */
 
 #welcome {
-	background-image: url("../assets/Fazenda.png");
+	background-image: url("../assets/Fazenda.webp");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -73,7 +73,8 @@ main {
 }
 
 #fazenda2 {
-	height: 70%;
+	display: block;
+	height: 300px;
 	border: solid 2px var(--accent);
 	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 	transition: transform 0.3s ease;
@@ -122,7 +123,6 @@ main {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	width: 100%;
 	height: 150px;
 	border-radius: 28px;
 	border: solid 2px var(--accent);
@@ -133,15 +133,15 @@ main {
 }
 
 .i2 {
-	background-image: url("../assets/Sorgo.jpg");
+	background-image: url("../assets/Sorgo.webp");
 }
 
 .i3 {
-	background-image: url("../assets/soja.jpg");
+	background-image: url("../assets/soja.webp");
 }
 
 .i4 {
-	background-image: url("../assets/ureia.jpg");
+	background-image: url("../assets/ureia.webp");
 }
 
 /* ---------- section 5 ---------- */
