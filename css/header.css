@@ -4,6 +4,8 @@ header {
 	background-color: var(--secondary-button);
 	padding: 10px;
 	border-radius: 0 0 12px 12px;
+	width: 100%;
+	align-items: center;
 }
 
 .header {
@@ -51,6 +53,7 @@ header {
 }
 
 .menu_bar_nav {
+	margin-top: 40px;
 	display: flex;
 	position: absolute;
 	flex-direction: column;

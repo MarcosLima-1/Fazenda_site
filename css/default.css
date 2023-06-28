@@ -2,8 +2,8 @@
 
 :root {
 	--text: #082615;
-	--background: #d9f7e6;
-	--secondary-button: #ccf5de;
+	--background: #d0fde4;
+	--secondary-button: #b8fdd6;
 	--primary-button: #323549;
 	--accent: #272a3a;
 	--accent-light: #595a62;
@@ -77,4 +77,9 @@ body {
 	display: block;
 	height: 100%;
 	border-radius: 28px;
+}
+
+#fazenda2 {
+	height: 70%;
+	border: solid 3px var(--accent);
 }

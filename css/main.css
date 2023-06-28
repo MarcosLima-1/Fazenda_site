@@ -20,7 +20,7 @@ main {
 
 /* ---------- section 1 ---------- */
 
-section {
+#welcome {
 	background-image: url("../assets/Fazenda.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -43,8 +43,92 @@ section {
 
 .glass {
 	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(10px);
 	width: 100%;
 	height: 100vh;
+}
+
+/* ---------- section 2 ---------- */
+
+.section_2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	width: 90%;
+	margin: auto;
+}
+
+.conteudo_2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+/* ---------- section 4 ---------- */
+
+.section_4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	gap: 2rem;
+	width: 90%;
+	margin: auto;
+}
+
+.conteudo_4 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+	gap: 1rem;
+}
+
+.slot {
+	background-color: var(--background);
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	margin: 20px 0 20px 0;
+	gap: 1rem;
+}
+
+.tech {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+.tech span {
+	background-color: var(--primary-button);
+	color: var(--secondary-button);
+	border-radius: 28px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.img1 {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	border-radius: 28px;
+	border: solid 2px var(--accent);
+}
+
+.i1 {
+}
+
+.i2 {
+	background-image: url("../assets/Sorgo.jpg");
+}
+
+.i3 {
+}
+
+.i4 {
 }
