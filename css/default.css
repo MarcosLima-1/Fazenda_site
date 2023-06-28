@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap");
 
 :root {
-	--text: #082615;
-	--background: #d0fde4;
-	--secondary-button: #b8fdd6;
-	--primary-button: #323549;
-	--accent: #272a3a;
-	--accent-light: #595a62;
+	--text: #091b0d;
+	--background: #d8f3df;
+	--primary-button: #3bb557;
+	--secondary-button: #f3fbf5;
+	--accent: #46c363;
 }
 
 html {

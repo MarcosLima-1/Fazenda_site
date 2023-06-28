@@ -1,9 +1,18 @@
-header {
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+:root {
+	--text: #091b0d;
+	--background: #d8f3df;
+	--primary-button: #3bb557;
+	--secondary-button: #f3fbf5;
+	--accent: #46c363;
 }
 
 section {
 	padding: 2rem 0 2rem 0;
+	background-color: var(--background);
+}
+
+.Legal {
+	background-color: var(--secondary-button);
 }
 
 .section_1 {
@@ -18,8 +27,8 @@ section {
 	align-items: center;
 	text-align: center;
 	gap: 1rem;
-	transition: transform ease 0.3s;
 	background-color: var(--secondary-button);
+	transition: transform ease 0.3s;
 }
 
 .sell_box:hover {
