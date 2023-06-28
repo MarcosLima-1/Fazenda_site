@@ -16,6 +16,9 @@ section {
 	gap: 1rem;
 	background-color: var(--secondary-button);
 }
+.img1 {
+	transition: transform ease 0.3s;
+}
 
 .img1:hover {
 	transform: scale(1.01);
@@ -55,6 +58,33 @@ section {
 
 .i4 {
 	background-image: url("../assets/ureia.webp");
+}
+
+#buttonup {
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	border-radius: 28px;
+
+	background-color: var(--primary-button);
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#buttonup:hover {
+	transform: scale(1.05);
+}
+
+#buttonup i {
+	color: var(--secondary-button);
 }
 
 @media screen and (max-width: 850px) {

@@ -204,6 +204,33 @@ main {
 	gap: 1rem;
 }
 
+#buttonup {
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	border-radius: 28px;
+
+	background-color: var(--primary-button);
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#buttonup:hover {
+	transform: scale(1.05);
+}
+
+#buttonup i {
+	color: var(--secondary-button);
+}
+
 @media screen and (max-width: 900px) {
 	.section_1 {
 		text-align: center;
@@ -235,5 +262,6 @@ main {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		gap: 1rem;
 	}
 }
