@@ -1,7 +1,3 @@
-html {
-	scroll-behavior: smooth !important;
-}
-
 /* ---------- main ---------- */
 
 main {
@@ -230,6 +226,8 @@ main {
 #buttonup i {
 	color: var(--secondary-button);
 }
+
+/* ---------- resposive ---------- */
 
 @media screen and (max-width: 900px) {
 	.section_1 {

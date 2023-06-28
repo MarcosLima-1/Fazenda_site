@@ -87,6 +87,8 @@ section {
 	color: var(--secondary-button);
 }
 
+/* ---------- resposive ---------- */
+
 @media screen and (max-width: 850px) {
 	.sell_box {
 		flex-direction: column;
