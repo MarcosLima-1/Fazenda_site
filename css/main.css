@@ -121,6 +121,7 @@ main {
 }
 
 .i1 {
+	background-image: url("../assets/Milho.webp");
 }
 
 .i2 {
@@ -128,7 +129,9 @@ main {
 }
 
 .i3 {
+	background-image: url("../assets/soja.jpg");
 }
 
 .i4 {
+	background-image: url("../assets/ureia.jpg");
 }
