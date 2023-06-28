@@ -155,12 +155,16 @@ main {
 	width: 90%;
 	align-items: center;
 	justify-content: center;
+	background-color: var(--background);
+	transition: transform ease 0.3s;
+}
+
+.conteudo_5:hover {
+	transform: scale(1.01);
 }
 
 .conteudo_5 .sbox {
 	width: 100%;
-
-	background-color: var(--background);
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 

@@ -1,3 +1,7 @@
+header {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
 section {
 	padding: 2rem 0 2rem 0;
 }
@@ -19,7 +23,7 @@ section {
 }
 
 .sell_box:hover {
-	transform: scale(1.01);
+	transform: scale(1.005);
 }
 
 .sell_box h1 {
