@@ -281,6 +281,13 @@ main {
 		align-items: center;
 		gap: 1rem;
 	}
+
+	.conteudo_5 {
+		width: 95%;
+	}
+	.conteudo_5 .email {
+		font-size: 1rem;
+	}
 	.slot {
 		height: auto;
 	}
