@@ -4,8 +4,6 @@ header {
 	background-color: var(--secondary-button);
 	padding: 10px;
 	border-radius: 0 0 12px 12px;
-	align-items: center;
-	justify-content: space-between;
 }
 
 .header {
