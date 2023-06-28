@@ -87,66 +87,10 @@ footer {
 	justify-content: center;
 
 	width: 100%;
-	height: 5rem;
+	height: 2.5rem;
 
 	background-color: var(--color-Primary-Light);
 	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
-}
-
-.Legal ul {
-	display: grid;
-
-	margin-right: 4rem;
-	grid-template-columns: repeat(3, 1fr);
-}
-
-.Legal li {
-	position: relative;
-	list-style: none;
-}
-
-.Legal li a {
-	text-decoration: none;
-
-	color: var(--color-Accent);
-}
-
-.Legal li a:hover {
-	color: var(--color-Accent-darker);
-}
-
-.Legal li a:hover::before {
-	content: "";
-	position: absolute;
-
-	top: 50%;
-	left: -15px;
-	transform: translateY(-50%);
-	border-radius: 50%;
-
-	background-color: var(--color-Accent-darker);
-	animation: growCircle 0.2s ease forwards;
-}
-
-@media screen and (max-width: 1030px) {
-	.Divisor_do_Footer {
-		display: grid;
-		align-items: center;
-		justify-items: center;
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.Social_links_footer {
-		order: 1;
-	}
-
-	.Sobre_empresa {
-		order: 4;
-	}
-
-	.Ferramentas {
-		order: 2;
-	}
 }
 
 @media screen and (max-width: 600px) {
@@ -160,32 +104,16 @@ footer {
 	.Social_links_footer {
 		margin-top: 30px;
 		text-align: center;
-		order: 1;
 	}
 
 	.Sobre_empresa {
 		margin-top: 30px;
 		text-align: center;
-		order: 2;
 	}
 
 	.Ferramentas {
 		margin-top: 30px;
 		text-align: center;
-		order: 3;
-	}
-
-	.Legal ul {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-
-		margin-right: 0;
-		grid-template-columns: repeat(3, 1fr);
-	}
-	.Legal li {
-		margin-bottom: 4px;
 	}
 }
 
