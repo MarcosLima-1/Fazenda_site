@@ -39,6 +39,14 @@ body {
 	font-size: 3rem;
 }
 
+.ptext {
+	font-size: 20px;
+}
+
+.text50 {
+	width: 80%;
+}
+
 .bborder {
 	border-bottom: solid 2px var(--accent);
 }
@@ -77,9 +85,4 @@ body {
 	display: block;
 	height: 100%;
 	border-radius: 28px;
-}
-
-#fazenda2 {
-	height: 70%;
-	border: solid 3px var(--accent);
 }
