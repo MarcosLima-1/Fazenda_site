@@ -27,8 +27,9 @@ section {
 }
 
 .sell_box h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: 700;
+	width: 100%;
 }
 
 .conteudo_1 {
@@ -60,6 +61,11 @@ section {
 
 .i4 {
 	background-image: url("../assets/ureia.webp");
+}
+
+.buybutton {
+	padding: 20px;
+	font-size: 1.5rem;
 }
 
 #buttonup {
@@ -102,5 +108,8 @@ section {
 	.i4 {
 		height: 300px;
 		width: 90%;
+	}
+	.sell_box h1 {
+		font-size: 2rem;
 	}
 }

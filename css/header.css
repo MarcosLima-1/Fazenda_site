@@ -38,6 +38,20 @@ header {
 	font-weight: 500;
 }
 
+.vertical-line {
+	border: none;
+
+	height: 20px;
+
+	border-left: 2px solid var(--text);
+}
+
+.horizontal-line {
+	border: none;
+
+	border-top: 2px solid var(--text);
+}
+
 .Menu_options_list li:hover {
 	transform: scale(1.05);
 }
