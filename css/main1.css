@@ -56,3 +56,17 @@ section {
 .i4 {
 	background-image: url("../assets/ureia.webp");
 }
+
+@media screen and (max-width: 850px) {
+	.sell_box {
+		flex-direction: column;
+	}
+
+	.i1,
+	.i2,
+	.i3,
+	.i4 {
+		height: 300px;
+		width: 90%;
+	}
+}
