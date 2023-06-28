@@ -14,13 +14,11 @@ section {
 	align-items: center;
 	text-align: center;
 	gap: 1rem;
+	transition: transform ease 0.3s;
 	background-color: var(--secondary-button);
 }
-.img1 {
-	transition: transform ease 0.3s;
-}
 
-.img1:hover {
+.sell_box:hover {
 	transform: scale(1.01);
 }
 
