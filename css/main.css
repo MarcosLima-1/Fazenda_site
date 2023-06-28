@@ -163,7 +163,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	width: 90%;
+	width: 60%;
 	align-items: center;
 	justify-content: center;
 	background-color: var(--secondary-button);
@@ -177,6 +177,11 @@ main {
 .conteudo_5 .sbox {
 	width: 100%;
 	transition: transform 0.3s ease;
+}
+
+.conteudo_5 a {
+	font-size: 1.5rem;
+	font-weight: 500;
 }
 
 .conteudo_5 .sbox:hover {
