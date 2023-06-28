@@ -44,8 +44,9 @@ section {
 .conteudo_1 {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 1rem;
-	width: 50%;
+	width: 100%;
 }
 
 .i1,
@@ -101,7 +102,7 @@ section {
 }
 
 #buttonup i {
-	color: var(--secondary-button);
+	color: var(--text);
 }
 
 /* ---------- resposive ---------- */
@@ -120,5 +121,9 @@ section {
 	}
 	.sell_box h1 {
 		font-size: 2rem;
+	}
+
+	.sell_button {
+		width: 100%;
 	}
 }

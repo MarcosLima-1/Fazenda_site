@@ -166,7 +166,7 @@ main {
 	width: 90%;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--background);
+	background-color: var(--secondary-button);
 	transition: transform ease 0.3s;
 }
 
@@ -176,7 +176,7 @@ main {
 
 .conteudo_5 .sbox {
 	width: 100%;
-	transition: background-color 0.3s ease, transform 0.3s ease;
+	transition: transform 0.3s ease;
 }
 
 .conteudo_5 .sbox:hover {
@@ -196,17 +196,15 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	cursor: pointer;
-
+	width: 150px;
+	height: 150px;
 	font-size: 50px;
-	width: 100px;
-	height: 100px;
 	border-radius: 50%;
-
-	background-color: var(--color-Accent);
+	background-color: var(--accent);
 }
 
 .Buttonicon i {
+	color: var(--text);
 	font-size: 90px;
 }
 
@@ -240,7 +238,7 @@ main {
 }
 
 #buttonup i {
-	color: var(--secondary-button);
+	color: var(--text);
 }
 
 /* ---------- resposive ---------- */
