@@ -1,0 +1,58 @@
+section {
+	padding: 2rem 0 2rem 0;
+}
+
+.section_1 {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.sell_box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+	background-color: var(--secondary-button);
+}
+
+.img1:hover {
+	transform: scale(1.01);
+}
+
+.sell_box h1 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.conteudo_1 {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 50%;
+}
+
+.i1,
+.i2,
+.i3,
+.i4 {
+	height: 400px;
+	width: 60%;
+}
+
+.i1 {
+	background-image: url("../assets/Milho.webp");
+}
+
+.i2 {
+	background-image: url("../assets/Sorgo.webp");
+}
+
+.i3 {
+	background-image: url("../assets/soja.webp");
+}
+
+.i4 {
+	background-image: url("../assets/ureia.webp");
+}

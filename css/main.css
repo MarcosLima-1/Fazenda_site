@@ -119,29 +119,24 @@ main {
 	transform: scale(1.01);
 }
 
-.img1 {
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 150px;
-	border-radius: 28px;
-	border: solid 2px var(--accent);
-}
-
 .i1 {
 	background-image: url("../assets/Milho.webp");
+	height: 150px;
 }
 
 .i2 {
 	background-image: url("../assets/Sorgo.webp");
+	height: 150px;
 }
 
 .i3 {
 	background-image: url("../assets/soja.webp");
+	height: 150px;
 }
 
 .i4 {
 	background-image: url("../assets/ureia.webp");
+	height: 150px;
 }
 
 /* ---------- section 5 ---------- */
@@ -203,6 +198,12 @@ main {
 	font-size: 90px;
 }
 
+.contatos_squares {
+	width: 90%;
+	display: flex;
+	gap: 1rem;
+}
+
 @media screen and (max-width: 900px) {
 	.section_1 {
 		text-align: center;
@@ -230,7 +231,7 @@ main {
 		grid-template-columns: 1fr;
 	}
 
-	.conteudo_5 {
+	.contatos_squares {
 		display: flex;
 		flex-direction: column;
 		align-items: center;

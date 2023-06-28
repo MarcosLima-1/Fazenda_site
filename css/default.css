@@ -85,3 +85,12 @@ body {
 	display: block;
 	border-radius: 28px;
 }
+
+.img1 {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 28px;
+	border: solid 2px var(--accent);
+}
