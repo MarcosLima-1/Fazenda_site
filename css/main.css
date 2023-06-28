@@ -202,3 +202,37 @@ main {
 .Buttonicon i {
 	font-size: 90px;
 }
+
+@media screen and (max-width: 900px) {
+	.section_1 {
+		text-align: center;
+	}
+
+	.section_2 {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+	}
+
+	#fazenda2 {
+		width: 80%;
+		height: auto;
+	}
+
+	.conteudo_3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.conteudo_4 {
+		grid-template-columns: 1fr;
+	}
+
+	.conteudo_5 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
