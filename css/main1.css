@@ -50,7 +50,7 @@ section {
 	gap: 1rem;
 	height: 400px;
 	border-radius: 28px;
-	width: 100%;
+	width: 90%;
 	background-color: var(--background);
 }
 
@@ -115,6 +115,7 @@ section {
 @media screen and (max-width: 850px) {
 	.sell_box {
 		flex-direction: column;
+		width: 90%;
 	}
 
 	.i1,
