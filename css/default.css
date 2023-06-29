@@ -61,6 +61,7 @@ body {
 .button {
 	background-color: var(--primary-button);
 	color: var(--secondary-button);
+	align-items: center;
 	font-size: 18px;
 	font-weight: 800;
 	font-style: normal;

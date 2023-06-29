@@ -20,6 +20,11 @@ header {
 	gap: 0.3rem;
 }
 
+.hlogo_icon {
+	position: absolute;
+	height: 4rem;
+}
+
 .Menu_options {
 	display: flex;
 	align-items: center;
@@ -66,7 +71,7 @@ header {
 }
 
 .menu_bar_nav {
-	margin-top: 40px;
+	margin-top: 45px;
 	display: flex;
 	position: absolute;
 	flex-direction: column;
