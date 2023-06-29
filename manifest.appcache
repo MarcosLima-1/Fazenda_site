@@ -1,0 +1,24 @@
+ CACHE MANIFEST
+  # 29/06/2023 v1.0
+  CACHE:
+  ./assets/Fazenda.webp
+  ./assets/fazenda_2.webp
+  ./assets/fazendalogoleve.webp
+  ./assets/graossorgo.webp
+  ./assets/Milho.webp
+  ./assets/soja.webp
+  ./assets/Sorgo.webp
+  ./assets/ureia.webp
+  ./css/default.css
+  ./css/footer.css
+  ./css/header.css
+  ./css/main.css
+  ./css/main1.css
+  ./js/index.js
+  
+  NETWORK:
+  *
+   
+  FALLBACK:
+  #a primeira URL é o recurso a segunda o substituto
+  /public_html  /404.html

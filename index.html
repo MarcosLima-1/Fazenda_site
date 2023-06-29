@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" manifest="manifest.appcache">
   <head>
     <title>Fazenda São José</title>
 
@@ -13,7 +13,9 @@
       name="keywords"
       content="Fazenda São José, Milho, Sorgo, Soja, Ureia, agricultura, produtos agrícolas"
     />
-    <meta name="author" content="Fazenda São José" />
+    <meta name="author" content="Christian & Marcos" />
+    <meta name="revisit-after" content="15 days" />
+    <meta name="copyright" content="© 2019 Fazenda São José" />
 
     <link rel="stylesheet" type="text/css" href="./css/default.css" />
     <link rel="stylesheet" type="text/css" href="./css/header.css" />
@@ -35,7 +37,11 @@
     <header id="header">
       <div class="header" id="header_css">
         <nav class="Menu_options">
-          <a href="./index.html" class="stext logo">
+          <a
+            href="./index.html"
+            class="stext logo"
+            aria-label="Voltar para o início"
+          >
             <img
               src="./assets/fazendalogoleve.webp"
               class="img hlogo_icon"
