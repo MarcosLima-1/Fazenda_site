@@ -131,4 +131,9 @@ section {
 	.sell_button {
 		width: 100%;
 	}
+
+	.conteudo_1 {
+		height: auto;
+		padding: 1rem;
+	}
 }
