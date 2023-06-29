@@ -32,7 +32,8 @@ footer {
 }
 
 .flogo_icon {
-	height: 9rem;
+	width: 9rem;
+  	height: 9rem;
 }
 
 .Social_links_footer ul {

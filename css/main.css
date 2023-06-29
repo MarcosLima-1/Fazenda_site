@@ -70,6 +70,7 @@ main {
 
 #fazenda2 {
 	display: block;
+	width: 100%;
 	height: 300px;
 	border: solid 2px var(--accent);
 	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
