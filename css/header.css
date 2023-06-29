@@ -67,7 +67,7 @@ header {
 /* ---------- responsive ---------- */
 
 #menu_bar_button i {
-	color: var(--secondary-button);
+	color: var(--text);
 }
 
 .menu_bar_nav {
