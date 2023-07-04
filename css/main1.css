@@ -351,6 +351,11 @@ section {
 		height: 300px;
 		width: 90%;
 	}
+
+	.sell_box {
+		width: 80%;
+	}
+
 	.sell_box h1 {
 		font-size: 2rem;
 	}
@@ -362,5 +367,6 @@ section {
 	.conteudo_1 {
 		height: auto;
 		padding: 1rem;
+		width: 80%;
 	}
 }
