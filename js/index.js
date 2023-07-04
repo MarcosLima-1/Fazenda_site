@@ -1,4 +1,5 @@
 const btu = document.getElementById("buttonup");
+window.addEventListener("scroll", ocultar);
 
 function scrollup(){
     window.scrollTo(0,0)
@@ -12,15 +13,7 @@ function ocultar(){
     }
 };
 
-ocultar();
-
-window.addEventListener("scroll", ocultar);
-
 function toggleDiv() {
-    var div = document.getElementById("menu_bar_nav");
-    if (div.style.display === "flex") {
-      div.style.display = "none";
-    } else {
-      div.style.display = "flex";
-    }
-  }
+  var div = document.getElementById("menu_bar_nav");
+  div.style.display = div.style.display === "flex" ? "none" : "flex";
+};
