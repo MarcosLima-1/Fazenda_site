@@ -20,8 +20,21 @@
     <link rel="stylesheet" type="text/css" href="./css/footer.css" />
     <link rel="icon" href="./assets/fazendalogoleve.webp" type="image/webp" />
     <link rel="preload" href="https://kit.fontawesome.com/6ffe26f1f6.js" as="script" />
+    <link rel="preload" href="./js/index.j" as="script" />
+    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-DBJ3NJBZNK" as="script" />
 
+    <script src="./js/index.js"></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-DBJ3NJBZNK"></script>
     <script src="https://kit.fontawesome.com/6ffe26f1f6.js" crossorigin="anonymous"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-DBJ3NJBZNK");
+    </script>
   </head>
   <body>
     <header id="header">
@@ -114,19 +127,4 @@
       <i class="fa-solid fa-arrow-up"></i>
     </div>
   </body>
-
-  <script src="./js/index.js"></script>
-
-  <!-- Google tag (gtag.js) -->
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DBJ3NJBZNK"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-DBJ3NJBZNK");
-  </script>
 </html>
