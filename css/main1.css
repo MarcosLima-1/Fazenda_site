@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap");
+
 :root {
 	--text: #091b0d;
 	--background: #d8f3df;
@@ -6,13 +8,230 @@
 	--accent: #46c363;
 }
 
-section {
-	padding: 2rem 0 2rem 0;
+html {
+	scroll-behavior: smooth !important;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Outfit", sans-serif;
+	text-decoration: none;
+	list-style: none;
+
+	margin: 0;
+	padding: 0;
+
+	color: var(--text);
+}
+
+body {
+	width: 100%;
+	height: 100%;
 	background-color: var(--background);
 }
 
-.Legal {
+.tcenter {
+	text-align: center;
+}
+
+.ttext1 {
+	font-size: 3rem;
+}
+
+.ptext {
+	font-size: 20px;
+}
+
+.text50 {
+	width: 80%;
+}
+
+.bborder {
+	border-bottom: solid 2px var(--accent);
+}
+
+.sbox {
+	border-radius: 28px;
+	padding: 1.5rem;
+	margin: auto;
+	width: 95%;
+}
+
+.button {
+	background-color: var(--primary-button);
+	color: var(--text);
+	align-items: center;
+	font-size: 18px;
+	font-weight: 800;
+	font-style: normal;
+	text-decoration: none;
+	padding: 10px 10px;
+	border: 0px solid #000;
+	border-radius: 10px;
+	display: inline-block;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+	transform: scale(1.05);
+}
+
+.button:active {
+	transform: scale(0.95);
+}
+
+.img {
+	display: block;
+	border-radius: 28px;
+}
+
+.img1 {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 28px;
+	border: solid 2px var(--accent);
+}
+
+/* ---------- header ---------- */
+
+header {
+	display: flex;
+	position: absolute;
+	top: 0;
+	flex-direction: column;
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
 	background-color: var(--secondary-button);
+	padding: 10px;
+	width: 100%;
+	align-items: center;
+}
+
+.header {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	color: var(--color-Accent);
+	gap: 0.3rem;
+}
+
+.hlogo_icon {
+	position: absolute;
+	height: 4rem;
+}
+
+.Menu_options {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.Menu_options_list {
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.Menu_options_list a {
+	font-weight: 500;
+}
+
+.vertical-line {
+	border: none;
+
+	height: 20px;
+
+	border-left: 2px solid var(--text);
+}
+
+.horizontal-line {
+	border: none;
+
+	border-top: 2px solid var(--text);
+}
+
+.Menu_options_list li:hover {
+	transform: scale(1.05);
+}
+.Menu_options_list li:active {
+	transform: scale(0.95);
+}
+
+/* ---------- responsive ---------- */
+
+#menu_bar_button i {
+	color: var(--text);
+}
+
+.menu_bar_nav {
+	margin-top: 45px;
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	z-index: 9999;
+	width: 100%;
+	height: auto;
+	background-color: var(--secondary-button);
+	padding: 2rem;
+	border-radius: 0 0 28px 28px;
+}
+
+.Menu_bar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.Menu_bar ul {
+	align-items: center;
+	justify-content: center;
+}
+
+.Menu_bar li {
+	width: 100%;
+	text-align: center;
+}
+
+.Menu_bar a {
+	width: 100%;
+}
+
+#menu_bar_button {
+	display: none;
+}
+
+@media screen and (min-width: 901px) {
+	#menu_bar_nav,
+	#menu_bar_button {
+		display: none;
+	}
+}
+@media screen and (max-width: 900px) {
+	.menu_bar_nav,
+	.Menu_options_list {
+		display: none;
+	}
+
+	#menu_bar_button {
+		display: flex;
+	}
+}
+
+/* ---------- main ---------- */
+
+section {
+	margin-top: 70px;
+	padding: 2rem 0 2rem 0;
 }
 
 .section_1 {
@@ -29,11 +248,7 @@ section {
 	gap: 1rem;
 	background-color: var(--secondary-button);
 	transition: transform ease 0.3s;
-	width: 80%;
-}
-
-.sell_box:hover {
-	transform: scale(1.005);
+	width: 70%;
 }
 
 .sell_box h1 {
@@ -50,8 +265,9 @@ section {
 	gap: 1rem;
 	height: 400px;
 	border-radius: 28px;
-	width: 90%;
-	background-color: var(--background);
+	width: 50%;
+
+	border: dashed var(--accent) 2px;
 }
 
 .i1,
@@ -76,6 +292,16 @@ section {
 
 .i4 {
 	background-image: url("../assets/ureia.webp");
+}
+
+.Legal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+
+	background-color: var(--secondary-button);
 }
 
 .buybutton {
