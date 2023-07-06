@@ -1,248 +1,230 @@
 <!DOCTYPE html>
 <html lang="pt-br" manifest="manifest.appcache">
-  <head>
-    <title>Fazenda São José</title>
+	<head>
+		<title>Fazenda São José</title>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-compatible" content="ie=edge" />
-    <meta
-      name="description"
-      content="A Fazenda São José oferece produtos agrícolas de alta qualidade, incluindo Milho, Sorgo, Soja e Ureia. Venha conhecer nossos produtos e potencialize sua produção."
-    />
-    <meta name="keywords" content="Fazenda São José, Milho, Sorgo, Soja, Ureia, agricultura, produtos agrícolas" />
-    <meta name="author" content="Christian & Marcos" />
-    <meta name="revisit-after" content="15 days" />
-    <meta name="copyright" content="© 2019 Fazenda São José" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet" defer />
-    <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <link rel="icon" href="./assets/fazendalogoleve.webp" type="image/webp" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-compatible" content="ie=edge" />
+		<meta
+			name="description"
+			content="A Fazenda São José oferece produtos agrícolas de alta qualidade, incluindo Milho, Sorgo, Soja e Ureia. Venha conhecer nossos produtos e potencialize sua produção."
+		/>
+		<meta name="keywords" content="Fazenda São José, Milho, Sorgo, Soja, Ureia, agricultura, produtos agrícolas" />
+		<meta name="author" content="Christian & Marcos" />
+		<meta name="revisit-after" content="15 days" />
+		<meta name="copyright" content="© 2019 Fazenda São José" />
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+		<link rel="icon" href="./assets/fazendalogoleve.webp" type="image/webp" />
 
-    <script src="./js/index.js" defer></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DBJ3NJBZNK" defer></script>
-    <script src="https://kit.fontawesome.com/6ffe26f1f6.js" crossorigin="anonymous" defer></script>
-    <script defer>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+		<script src="./js/index.js" defer></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-DBJ3NJBZNK" defer></script>
+		<script src="https://kit.fontawesome.com/6ffe26f1f6.js" crossorigin="anonymous" defer></script>
+		<script defer>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-      gtag("config", "G-DBJ3NJBZNK");
-    </script>
-  </head>
+			gtag("config", "G-DBJ3NJBZNK");
+		</script>
+	</head>
 
-  <body>
-    <header id="header">
-      <div class="header" id="header_css">
-        <nav class="Menu_options">
-          <a href="./index.html" class="stext logo" aria-label="Voltar para o início">
-            <img src="./assets/fazendalogoleve.webp" class="img hlogo_icon" alt="" />
-          </a>
-          <ul class="Menu_options_list">
-            <li><a href="#about" class="ptext">Sobre nós</a></li>
-            <li><a href="#produtos" class="ptext">Produtos</a></li>
-            <li><a href="#contatos" class="ptext">Contatos</a></li>
-            <li><hr class="vertical-line" /></li>
-            <li><a href="./produtos.html" class="button">Preços</a></li>
-          </ul>
-        </nav>
-        <button aria-label="Contatos" class="button" id="menu_bar_button" onclick="toggleDiv()">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-      </div>
-      <nav class="menu_bar_nav" id="menu_bar_nav">
-        <ul class="Menu_bar">
-          <li><a href="./produtos.html" class="button">Preços</a></li>
-          <li><hr class="horizontal-line" /></li>
-          <li>
-            <a onclick="toggleDiv()" class="button" href="#contatos">Contatos</a>
-          </li>
-          <li>
-            <a onclick="toggleDiv()" class="button" href="#produtos">Produtos</a>
-          </li>
-          <li>
-            <a onclick="toggleDiv()" class="button" href="#about">Sobre nós</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+	<body>
+		<header id="header">
+			<div class="header" id="header_css">
+				<nav class="Menu_options">
+					<a href="./index.html" class="stext logo" aria-label="Voltar para o início">
+						<img src="./assets/fazendalogoleve.webp" class="img hlogo_icon" alt="" />
+					</a>
+					<ul class="Menu_options_list">
+						<li><a href="#about" class="ptext">Sobre nós</a></li>
+						<li><a href="#produtos" class="ptext">Produtos</a></li>
+						<li><a href="#contatos" class="ptext">Contatos</a></li>
+						<li><hr class="vertical-line" /></li>
+						<li><a href="./produtos.html" class="button">Preços</a></li>
+					</ul>
+				</nav>
+				<button aria-label="Contatos" class="button" id="menu_bar_button" onclick="toggleDiv()">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+			</div>
+			<nav class="menu_bar_nav" id="menu_bar_nav">
+				<ul class="Menu_bar">
+					<li><a href="./produtos.html" class="button">Preços</a></li>
+					<li><hr class="horizontal-line" /></li>
+					<li>
+						<a onclick="toggleDiv()" class="button" href="#contatos">Contatos</a>
+					</li>
+					<li>
+						<a onclick="toggleDiv()" class="button" href="#produtos">Produtos</a>
+					</li>
+					<li>
+						<a onclick="toggleDiv()" class="button" href="#about">Sobre nós</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-    <main>
-      <section id="welcome" loading="lazy">
-        <div class="glass">
-          <div class="section_1 vh1">
-            <h1 class="ttext1 bborder">Fazenda São josé</h1>
-            <p>Da nossa fazenda para a sua mesa: qualidade cultivada com carinho e sabor colhido na hora!</p>
-            <a href="#about" class="button">Sobre Nós</a>
-          </div>
-        </div>
-      </section>
+		<main>
+			<section id="welcome" loading="lazy">
+				<div class="glass">
+					<div class="section_1 vh1">
+						<h1 class="ttext1 bborder">Fazenda São josé</h1>
+						<p>Da nossa fazenda para a sua mesa: qualidade cultivada com carinho e sabor colhido na hora!</p>
+						<a href="#about" class="button">Sobre Nós</a>
+					</div>
+				</div>
+			</section>
 
-      <section class="bg1" id="about">
-        <div class="section_2 vh2">
-          <div class="img1 i5" loading="lazy"></div>
-          <div class="conteudo_2">
-            <h1 class="ttext1 bborder">Sobre Nós</h1>
-            <p class="ptext text50">
-              A Fazenda São José é sua parceira na produção de alimentos. Oferecemos soluções em nutrição animal para
-              gado de corte, gado de leite, aves e suínos. Além disso, trabalhamos com cultivo e comercialização de
-              grãos como soja, sorgo, milho e ureia. Conecte-se conosco e descubra as oportunidades do campo. Clique
-              abaixo para falar conosco via WhatsApp ou telefone e faça negócios direto da nossa terra para você.
-            </p>
-          </div>
-        </div>
-      </section>
+			<section class="bg1" id="about">
+				<div class="section_2 vh2">
+					<div class="img1 i5" loading="lazy"></div>
+					<div class="conteudo_2">
+						<h1 class="ttext1 bborder">Sobre Nós</h1>
+						<p class="ptext text50">
+							A Fazenda São José é sua parceira na produção de alimentos. Oferecemos soluções em nutrição animal para gado de corte, gado de leite, aves e suínos. Além disso, trabalhamos com cultivo e
+							comercialização de grãos como soja, sorgo, milho e ureia. Conecte-se conosco e descubra as oportunidades do campo. Clique abaixo para falar conosco via WhatsApp ou telefone e faça
+							negócios direto da nossa terra para você.
+						</p>
+					</div>
+				</div>
+			</section>
 
-      <section id="produtos">
-        <div class="section_4">
-          <h1 class="ttext1 tcenter bborder">Produtos</h1>
+			<section id="produtos">
+				<div class="section_4">
+					<h1 class="ttext1 tcenter bborder">Produtos</h1>
 
-          <div class="conteudo_4" id="pwebdev">
-            <div class="slot sbox">
-              <div class="img1 i1" loading="lazy"></div>
-              <h2>Milho</h2>
-              <h3>sobre:</h3>
-              <p>
-                O Milho é uma cultura amplamente cultivada em todo o país, com destaque para os Estados do Paraná, Mato
-                Grosso, Goiás e São Paulo. As tecnologias modernas de produção têm contribuído para o aumento dos
-                rendimentos do Milho, mesmo enfrentando desafios ambientais. Com o uso de híbridos de alto potencial
-                genético e práticas de manejo do solo aprimoradas, os rendimentos de grãos do Milho podem variar entre
-                6.000 e 9.000 kg/ha.
-              </p>
-              <div class="slotbuttons">
-                <a href="./produtos.html" class="button buybutton">Cotação</a>
-              </div>
-            </div>
+					<div class="conteudo_4" id="pwebdev">
+						<div class="slot sbox">
+							<div class="img1 i1" loading="lazy"></div>
+							<h2>Milho</h2>
+							<h3>sobre:</h3>
+							<p>
+								O Milho é uma cultura amplamente cultivada em todo o país, com destaque para os Estados do Paraná, Mato Grosso, Goiás e São Paulo. As tecnologias modernas de produção têm contribuído
+								para o aumento dos rendimentos do Milho, mesmo enfrentando desafios ambientais. Com o uso de híbridos de alto potencial genético e práticas de manejo do solo aprimoradas, os
+								rendimentos de grãos do Milho podem variar entre 6.000 e 9.000 kg/ha.
+							</p>
+							<div class="slotbuttons">
+								<a href="./produtos.html" class="button buybutton">Cotação</a>
+							</div>
+						</div>
 
-            <div class="slot sbox">
-              <div class="img1 i2" loading="lazy"></div>
-              <h2>Sorgo</h2>
-              <h3>sobre:</h3>
-              <p>
-                O Sorgo também tem ganhado destaque na agricultura brasileira, especialmente nos Estados de Minas
-                Gerais, Goiás e Mato Grosso do Sul. Com sua adaptabilidade a diferentes condições climáticas, essa
-                cultura tem se mostrado uma opção viável para a produção de grãos e forragem. Através de técnicas
-                avançadas e manejo adequado do solo, os rendimentos de grãos de Sorgo podem atingir entre 2.000 e 3.500
-                kg/ha.
-              </p>
-              <div class="slotbuttons">
-                <a href="./produtos.html" class="button buybutton">Cotação</a>
-              </div>
-            </div>
+						<div class="slot sbox">
+							<div class="img1 i2" loading="lazy"></div>
+							<h2>Sorgo</h2>
+							<h3>sobre:</h3>
+							<p>
+								O Sorgo também tem ganhado destaque na agricultura brasileira, especialmente nos Estados de Minas Gerais, Goiás e Mato Grosso do Sul. Com sua adaptabilidade a diferentes condições
+								climáticas, essa cultura tem se mostrado uma opção viável para a produção de grãos e forragem. Através de técnicas avançadas e manejo adequado do solo, os rendimentos de grãos de Sorgo
+								podem atingir entre 2.000 e 3.500 kg/ha.
+							</p>
+							<div class="slotbuttons">
+								<a href="./produtos.html" class="button buybutton">Cotação</a>
+							</div>
+						</div>
 
-            <div class="slot sbox">
-              <div class="img1 i3" loading="lazy"></div>
-              <h2>Soja</h2>
-              <h3>sobre:</h3>
-              <p>
-                a Soja é amplamente cultivada em diversas regiões do Brasil, como o Mato Grosso, Paraná, Rio Grande do
-                Sul e Goiás. O uso de tecnologias avançadas de produção tem impulsionado o aumento dos rendimentos dessa
-                cultura, mesmo diante dos desafios ambientais. Os agricultores têm acesso a híbridos de alto potencial
-                genético, práticas aprimoradas de manejo do solo e estudos que se adaptam às particularidades de cada
-                genótipo e região.
-              </p>
-              <div class="slotbuttons">
-                <a href="./produtos.html" class="button buybutton">Cotação</a>
-              </div>
-            </div>
+						<div class="slot sbox">
+							<div class="img1 i3" loading="lazy"></div>
+							<h2>Soja</h2>
+							<h3>sobre:</h3>
+							<p>
+								a Soja é amplamente cultivada em diversas regiões do Brasil, como o Mato Grosso, Paraná, Rio Grande do Sul e Goiás. O uso de tecnologias avançadas de produção tem impulsionado o
+								aumento dos rendimentos dessa cultura, mesmo diante dos desafios ambientais. Os agricultores têm acesso a híbridos de alto potencial genético, práticas aprimoradas de manejo do solo e
+								estudos que se adaptam às particularidades de cada genótipo e região.
+							</p>
+							<div class="slotbuttons">
+								<a href="./produtos.html" class="button buybutton">Cotação</a>
+							</div>
+						</div>
 
-            <div class="slot sbox">
-              <div class="img1 i4" loading="lazy"></div>
-              <h2>Uréia</h2>
-              <h3>sobre:</h3>
-              <p>
-                A Ureia é um importante fertilizante utilizado na agricultura para fornecer nitrogênio às plantas. Ela
-                contribui para o crescimento saudável das culturas e aumento da produtividade. A aplicação adequada de
-                ureia no solo pode melhorar os rendimentos das culturas, garantindo um suprimento nutricional adequado
-                às plantas.
-              </p>
-              <div class="slotbuttons">
-                <a href="./produtos.html" class="button buybutton">Cotação</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+						<div class="slot sbox">
+							<div class="img1 i4" loading="lazy"></div>
+							<h2>Uréia</h2>
+							<h3>sobre:</h3>
+							<p>
+								A Ureia é um importante fertilizante utilizado na agricultura para fornecer nitrogênio às plantas. Ela contribui para o crescimento saudável das culturas e aumento da produtividade. A
+								aplicação adequada de ureia no solo pode melhorar os rendimentos das culturas, garantindo um suprimento nutricional adequado às plantas.
+							</p>
+							<div class="slotbuttons">
+								<a href="./produtos.html" class="button buybutton">Cotação</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-      <section class="bg1" id="contatos">
-        <div class="section_5">
-          <h1 class="ttext1 tcenter bborder">Contatos</h1>
-          <div class="contatos_squares">
-            <div class="conteudo_5 sbox">
-              <div class="contacticons">
-                <div class="contacticons1">
-                  <i class="fa-solid fa-envelope"></i>
-                  <a href="mailto:Fazenda.gruposaojose@gmail.com" target="_blank" class="email bborder"
-                    >Fazenda.gruposaojose@gmail.com</a
-                  >
-                </div>
+			<section class="bg1" id="contatos">
+				<div class="section_5">
+					<h1 class="ttext1 tcenter bborder">Contatos</h1>
+					<div class="contatos_squares">
+						<div class="conteudo_5 sbox">
+							<div class="contacticons">
+								<div class="contacticons1">
+									<i class="fa-solid fa-envelope"></i>
+									<a href="mailto:Fazenda.gruposaojose@gmail.com" target="_blank" class="email bborder">Fazenda.gruposaojose@gmail.com</a>
+								</div>
 
-                <div class="contacticons1">
-                  <i class="fa-brands fa-whatsapp"></i>
-                  <a href="https://api.whatsapp.com/send?phone=5544991384767" target="_blank" class="bborder"
-                    >44 99138-4767</a
-                  >
-                </div>
+								<div class="contacticons1">
+									<i class="fa-brands fa-whatsapp"></i>
+									<a href="https://api.whatsapp.com/send?phone=5544991384767" target="_blank" class="bborder">44 99138-4767</a>
+								</div>
 
-                <div class="contacticons1">
-                  <i class="fa-brands fa-whatsapp"></i>
-                  <a href="https://api.whatsapp.com/send?phone=5544991813819" target="_blank" class="bborder"
-                    >44 99181-3819</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+								<div class="contacticons1">
+									<i class="fa-brands fa-whatsapp"></i>
+									<a href="https://api.whatsapp.com/send?phone=5544991813819" target="_blank" class="bborder">44 99181-3819</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-    <footer>
-      <div class="Divisor_do_Footer">
-        <!-- footer_Social_links_footer -->
-        <div class="Social_links_footer">
-          <img src="./assets/fazendalogoleve.webp" class="img flogo_icon" alt="" />
-          <p class="texto_motivacao">Da nossa fazenda para sua prosperidade!</p>
-        </div>
+		<footer>
+			<div class="Divisor_do_Footer">
+				<!-- footer_Social_links_footer -->
+				<div class="Social_links_footer">
+					<img src="./assets/fazendalogoleve.webp" class="img flogo_icon" alt="" />
+					<p class="texto_motivacao">Da nossa fazenda para sua prosperidade!</p>
+				</div>
 
-        <!-- footer_Sobre_empresa -->
-        <nav class="Sobre_empresa">
-          <ul>
-            <li>
-              <h2><strong>Sobre nós</strong></h2>
-            </li>
-            <li class="Footer_links">
-              <a href="#about" class="ptext">Quem somos</a>
-            </li>
-          </ul>
-        </nav>
+				<!-- footer_Sobre_empresa -->
+				<nav class="Sobre_empresa">
+					<ul>
+						<li>
+							<h2><strong>Sobre nós</strong></h2>
+						</li>
+						<li class="Footer_links">
+							<a href="#about" class="ptext">Quem somos</a>
+						</li>
+					</ul>
+				</nav>
 
-        <!-- footer_Ferramentas -->
+				<!-- footer_Ferramentas -->
 
-        <nav class="Ferramentas">
-          <ul>
-            <li>
-              <h2><strong>Plataforma</strong></h2>
-            </li>
-            <li class="Footer_links">
-              <a href="./produtos.html" class="ptext">Preços</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+				<nav class="Ferramentas">
+					<ul>
+						<li>
+							<h2><strong>Plataforma</strong></h2>
+						</li>
+						<li class="Footer_links">
+							<a href="./produtos.html" class="ptext">Preços</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 
-      <!-- footer_Legal -->
+			<!-- footer_Legal -->
 
-      <div class="Legal">
-        <p>copyright <i class="fa-regular fa-copyright"></i> 2023 SãoJosé</p>
-      </div>
-    </footer>
+			<div class="Legal">
+				<p>copyright <i class="fa-regular fa-copyright"></i> 2023 São José</p>
+			</div>
+		</footer>
 
-    <div onclick="scrollup()" id="buttonup" style="display: none">
-      <i class="fa-solid fa-arrow-up"></i>
-    </div>
-  </body>
+		<div onclick="scrollup()" id="buttonup" style="display: none">
+			<i class="fa-solid fa-arrow-up"></i>
+		</div>
+	</body>
 </html>

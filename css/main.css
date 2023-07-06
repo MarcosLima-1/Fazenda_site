@@ -10,6 +10,12 @@ html {
 	scroll-behavior: smooth !important;
 }
 
+@font-face {
+	font-family: "Cabin";
+	src: local("sans serif"), local("sans-serif"), url(../assets/Cabin.ttf);
+	font-display: swap;
+}
+
 * {
 	box-sizing: border-box;
 	font-family: "Cabin", sans-serif;
@@ -97,6 +103,8 @@ body {
 header {
 	display: flex;
 	flex-direction: column;
+	position: absolute;
+	z-index: 9999;
 	background-color: var(--secondary-button);
 	padding: 10px;
 	width: 100%;
@@ -160,6 +168,11 @@ header {
 	transform: scale(0.95);
 }
 
+.barsolid {
+	height: 16px;
+	width: 16px;
+}
+
 /* ---------- responsive ---------- */
 
 #menu_bar_button i {
@@ -167,11 +180,8 @@ header {
 }
 
 .menu_bar_nav {
-	margin-top: 45px;
 	display: flex;
-	position: absolute;
 	flex-direction: column;
-	z-index: 9999;
 	width: 100%;
 	height: auto;
 	background-color: var(--secondary-button);
@@ -281,6 +291,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	gap: 1rem;
+	width: 100%;
 }
 
 /* ---------- section 4 ---------- */
@@ -350,7 +361,7 @@ header {
 .i5 {
 	background-image: url("../assets/fazenda_2.webp");
 	height: 350px;
-	width: 150%;
+	width: 100%;
 	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 	transition: transform 0.3s ease;
 }

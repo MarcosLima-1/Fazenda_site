@@ -10,6 +10,12 @@ html {
 	scroll-behavior: smooth !important;
 }
 
+@font-face {
+	font-family: "Cabin";
+	src: local("sans serif"), local("sans-serif"), url(../assets/Cabin.ttf);
+	font-display: swap;
+}
+
 * {
 	box-sizing: border-box;
 	font-family: "Cabin", sans-serif;
