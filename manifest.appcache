@@ -1,14 +1,13 @@
  CACHE MANIFEST
   # 29/06/2023 v1.0
   CACHE:
-  ./assets/Fazenda.webp
-  ./assets/fazenda_2.webp
-  ./assets/fazendalogoleve.webp
-  ./assets/graossorgo.webp
-  ./assets/Milho.webp
-  ./assets/soja.webp
+  ./assets/Welcome.webp
+  ./assets/Sobre.webp
+  ./assets/milho.webp
+  ./assets/Logo.svg
   ./assets/Sorgo.webp
-  ./assets/ureia.webp
+  ./assets/Ureia.webp
+  ./assets/Cabin.ttf
   ./css/default.css
   ./css/footer.css
   ./css/header.css
