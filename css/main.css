@@ -1,8 +1,8 @@
 :root {
-	--text: #091b0d;
-	--background: #d8f3df;
+	--text: #fff;
+	--background: #1e452f;
 	--primary-button: #3bb557;
-	--secondary-button: #f3fbf5;
+	--secondary-button: #1a3526;
 	--accent: #46c363;
 }
 
@@ -34,31 +34,8 @@ body {
 	background-color: var(--background);
 }
 
-.tcenter {
-	text-align: center;
-}
-
-.ttext1 {
+h1 {
 	font-size: 3rem;
-}
-
-.ptext {
-	font-size: 20px;
-}
-
-.text50 {
-	width: 80%;
-}
-
-.bborder {
-	border-bottom: solid 2px var(--accent);
-}
-
-.sbox {
-	border-radius: 28px;
-	padding: 1.5rem;
-	margin: auto;
-	width: 95%;
 }
 
 .button {
@@ -86,15 +63,17 @@ body {
 
 .img {
 	display: block;
+	width: 100%;
 	border-radius: 28px;
 }
 
-.img1 {
+.bg_img {
 	display: block;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	border-radius: 28px;
+	height: 100%;
 	border: solid 2px var(--accent);
 }
 
@@ -105,7 +84,7 @@ header {
 	flex-direction: column;
 	position: absolute;
 	z-index: 9999;
-	background-color: var(--secondary-button);
+	background-color: var(--background);
 	padding: 10px;
 	width: 100%;
 	align-items: center;
@@ -125,7 +104,6 @@ header {
 }
 
 .hlogo_icon {
-	position: absolute;
 	height: 4rem;
 }
 
@@ -158,6 +136,8 @@ header {
 .horizontal-line {
 	border: none;
 
+	width: 90%;
+
 	border-top: 2px solid var(--text);
 }
 
@@ -173,103 +153,37 @@ header {
 	width: 16px;
 }
 
-/* ---------- responsive ---------- */
-
-#menu_bar_button i {
-	color: var(--text);
-}
-
-.menu_bar_nav {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: auto;
-	background-color: var(--secondary-button);
-	padding: 2rem;
-	border-radius: 0 0 28px 28px;
-}
-
-.Menu_bar {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 1rem;
-}
-
-.Menu_bar ul {
-	align-items: center;
-	justify-content: center;
-}
-
-.Menu_bar li {
-	width: 100%;
-	text-align: center;
-}
-
-.Menu_bar a {
-	width: 100%;
-}
-
 #menu_bar_button {
-	display: none;
-}
-
-@media screen and (min-width: 901px) {
-	#menu_bar_nav,
-	#menu_bar_button {
-		display: none;
-	}
-}
-@media screen and (max-width: 900px) {
-	.menu_bar_nav,
-	.Menu_options_list {
-		display: none;
-	}
-
-	#menu_bar_button {
-		display: flex;
-	}
-}
-
-/* ---------- main ---------- */
-
-.vh1 {
-	height: 100vh;
-}
-
-.vh2 {
-	height: 80vh;
-}
-
-.bg1 {
-	background-color: var(--secondary-button);
+	padding: 0 20px 0 20px;
+	font-size: 1.5rem;
 }
 
 /* ---------- section 1 ---------- */
 
-#welcome {
-	background-image: url("../assets/Fazenda.webp");
+.section_1 {
+	background-image: url("../assets/Welcome.webp");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
 }
 
-.section_1 {
+.conteudo_1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 
+	height: 100vh;
 	width: 90%;
 	gap: 1rem;
-	margin: auto;
 }
 
 .glass {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 	width: 100%;
 	height: 100vh;
@@ -278,25 +192,37 @@ header {
 /* ---------- section 2 ---------- */
 
 .section_2 {
+	background-color: var(--secondary-button);
+}
+
+.conteudo_2 {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 2rem;
 	width: 90%;
 	margin: auto;
 	padding: 2rem 0 2rem 0;
 }
 
-.conteudo_2 {
+.texts_2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 1rem;
-	width: 100%;
+	width: 50%;
 }
 
-/* ---------- section 4 ---------- */
+#sobre_img {
+	width: 100%;
+	max-width: 600px;
+	height: 100%;
+	border: solid 3px var(--accent);
+}
 
-.section_4 {
+/* ---------- section 3 ---------- */
+
+.conteudo_3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -308,11 +234,16 @@ header {
 	padding: 2rem 0 2rem 0;
 }
 
-.conteudo_4 {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+.produtos {
+	display: flex;
+	grid-template-columns: repeat(2, 1fr);
 	justify-items: center;
 	gap: 1rem;
+	width: 100%;
+}
+
+.produto {
+	width: 25%;
 }
 
 .slot {
@@ -322,6 +253,13 @@ header {
 	margin: 20px 0 20px 0;
 	gap: 1rem;
 	transition: transform 0.3s ease;
+	height: 800px;
+	border-radius: 28px;
+	padding: 1.5rem;
+}
+
+#produtos_img {
+	width: 100%;
 }
 
 .slotbuttons {
@@ -338,37 +276,13 @@ header {
 	font-size: 22px;
 }
 
-.i1 {
-	background-image: url("../assets/Milho.webp");
-	height: 150px;
+/* ---------- section 4 ---------- */
+
+.section_4 {
+	background-color: var(--secondary-button);
 }
 
-.i2 {
-	background-image: url("../assets/Sorgo.webp");
-	height: 150px;
-}
-
-.i3 {
-	background-image: url("../assets/soja.webp");
-	height: 150px;
-}
-
-.i4 {
-	background-image: url("../assets/ureia.webp");
-	height: 150px;
-}
-
-.i5 {
-	background-image: url("../assets/fazenda_2.webp");
-	height: 350px;
-	width: 100%;
-	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
-	transition: transform 0.3s ease;
-}
-
-/* ---------- section 5 ---------- */
-
-.section_5 {
+.conteudo_4 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -378,7 +292,7 @@ header {
 	gap: 2rem;
 }
 
-.conteudo_5 {
+.contatos {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
@@ -389,18 +303,13 @@ header {
 	transition: transform ease 0.3s;
 }
 
-.conteudo_5 .sbox {
-	width: 100%;
-	transition: transform 0.3s ease;
-}
-
-.conteudo_5 a {
+.contatos a {
 	font-size: 1.5rem;
 	font-weight: 500;
 }
 
-.conteudo_5 a:hover {
-	transform: scale(1.05);
+.contatos a:hover {
+	transform: scale(1.01);
 }
 
 .contacticons {
@@ -460,53 +369,6 @@ header {
 
 #buttonup i {
 	color: var(--text);
-}
-
-/* ---------- resposive ---------- */
-
-@media screen and (max-width: 900px) {
-	.section_1 {
-		text-align: center;
-	}
-
-	.section_2 {
-		display: flex;
-		flex-direction: column;
-		height: auto;
-		text-align: center;
-	}
-
-	.i5 {
-		width: 80%;
-		height: 300px;
-	}
-
-	.conteudo_3 {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.conteudo_4 {
-		grid-template-columns: 1fr;
-	}
-
-	.contatos_squares {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 1rem;
-	}
-
-	.conteudo_5 {
-		width: 95%;
-	}
-	.conteudo_5 .email {
-		font-size: 1rem;
-	}
-	.slot {
-		height: auto;
-	}
 }
 
 /*------------Footer------------*/
@@ -603,6 +465,101 @@ footer {
 
 	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
 }
+
+/* ----------Header responsive ---------- */
+
+#menu_bar_button i {
+	color: var(--text);
+}
+
+.menu_bar_nav {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	background-color: var(--background);
+	padding: 2rem;
+}
+
+.Menu_bar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.Menu_bar ul {
+	align-items: center;
+	justify-content: center;
+}
+
+.Menu_bar li {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.Menu_bar a {
+	width: 100%;
+}
+
+#menu_bar_button {
+	display: none;
+}
+
+@media screen and (min-width: 901px) {
+	#menu_bar_nav,
+	#menu_bar_button {
+		display: none;
+	}
+}
+@media screen and (max-width: 900px) {
+	.menu_bar_nav,
+	.Menu_options_list {
+		display: none;
+	}
+
+	#menu_bar_button {
+		display: flex;
+	}
+}
+
+/* ---------- resposive ---------- */
+
+@media screen and (max-width: 900px) {
+	.conteudo_1 {
+		text-align: center;
+	}
+
+	.conteudo_2 {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+	}
+
+	.produtos {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.produto {
+		width: 95%;
+	}
+
+	.conteudo_4 {
+		width: 95%;
+	}
+
+	.slot {
+		height: auto;
+	}
+}
+
+/* ----------footer responsive ---------- */
 
 @media screen and (max-width: 600px) {
 	.Divisor_do_Footer {

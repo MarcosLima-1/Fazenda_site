@@ -1,8 +1,8 @@
 :root {
-	--text: #091b0d;
-	--background: #d8f3df;
+	--text: #fff;
+	--background: #1e452f;
 	--primary-button: #3bb557;
-	--secondary-button: #f3fbf5;
+	--secondary-button: #1a3526;
 	--accent: #46c363;
 }
 
@@ -183,9 +183,8 @@ header {
 	z-index: 9999;
 	width: 100%;
 	height: auto;
-	background-color: var(--secondary-button);
+	background-color: var(--background);
 	padding: 2rem;
-	border-radius: 0 0 28px 28px;
 }
 
 .Menu_bar {
@@ -283,11 +282,11 @@ section {
 }
 
 .i1 {
-	background-image: url("../assets/graosmilho.webp");
+	background-image: url("../assets/milho.webp");
 }
 
 .i2 {
-	background-image: url("../assets/graossorgo.webp");
+	background-image: url("../assets/sorgo.webp");
 }
 
 .i3 {
