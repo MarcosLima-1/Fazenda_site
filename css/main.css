@@ -189,6 +189,11 @@ header {
 	height: 100vh;
 }
 
+.conteudo_1 .button {
+	padding: 20px;
+	background-color: #00891f;
+}
+
 /* ---------- section 2 ---------- */
 
 .section_2 {
