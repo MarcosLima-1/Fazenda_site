@@ -86,6 +86,7 @@ body {
 
 .img {
 	display: block;
+	width: 100%;
 	border-radius: 28px;
 }
 
@@ -105,7 +106,8 @@ header {
 	position: absolute;
 	top: 0;
 	flex-direction: column;
-	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 9999;
 	background-color: var(--secondary-button);
 	padding: 10px;
 	width: 100%;
@@ -126,7 +128,6 @@ header {
 }
 
 .hlogo_icon {
-	position: absolute;
 	height: 4rem;
 }
 
@@ -159,6 +160,8 @@ header {
 .horizontal-line {
 	border: none;
 
+	width: 90%;
+
 	border-top: 2px solid var(--text);
 }
 
@@ -169,6 +172,15 @@ header {
 	transform: scale(0.95);
 }
 
+.barsolid {
+	height: 16px;
+	width: 16px;
+}
+
+#menu_bar_button {
+	padding: 0 20px 0 20px;
+	font-size: 1.5rem;
+}
 /* ---------- responsive ---------- */
 
 #menu_bar_button i {
@@ -251,7 +263,7 @@ section {
 	gap: 1rem;
 	background-color: var(--secondary-button);
 	transition: transform ease 0.3s;
-	width: 70%;
+	width: 90%;
 }
 
 .sell_box h1 {
