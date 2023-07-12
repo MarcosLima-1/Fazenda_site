@@ -561,6 +561,14 @@ footer {
 	.slot {
 		height: auto;
 	}
+
+	.texts_2 {
+		width: 90%;
+	}
+
+	.contacticons1 a {
+		font-size: 1.1rem;
+	}
 }
 
 /* ----------footer responsive ---------- */
