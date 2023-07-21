@@ -1,19 +1,29 @@
  CACHE MANIFEST
   # 29/06/2023 v1.0
   CACHE:
-  ./assets/Welcome.webp
-  ./assets/Sobre.webp
-  ./assets/Milho.webp
-  ./assets/Logo.svg
-  ./assets/Sorgo.webp
-  ./assets/Ureia.webp
-  ./assets/Cabin.ttf
-  ./css/default.css
-  ./css/footer.css
-  ./css/header.css
-  ./css/main.css
-  ./css/main1.css
-  ./js/index.js
+    ./assets/Welcome.webp
+    ./assets/Sobre.webp
+    ./assets/Milho.webp
+    ./assets/Logo.svg
+    ./assets/Sorgo.webp
+    ./assets/Ureia.webp
+    ./assets/Cascadesoja.webp
+    ./assets/Farelodealgodao.webp
+    ./assets/Farelodesoja.webp
+    ./assets/Milhomoido.webp
+    ./assets/Oleodegomado.webp
+    ./assets/Oleorefinado.webp
+
+    ./assets/Cabin.ttf
+
+    ./css/default.css
+    ./css/footer.css
+    ./css/header.css
+    ./css/main.css
+    ./css/main1.css
+
+    ./js/index.js
+
   
   NETWORK:
   *

@@ -240,15 +240,16 @@ header {
 }
 
 .produtos {
-	display: flex;
-	grid-template-columns: repeat(2, 1fr);
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	justify-items: center;
 	gap: 1rem;
 	width: 100%;
 }
 
-.produto {
-	width: 25%;
+.more {
+	font-size: 2.7rem;
+	margin-top: 10px;
 }
 
 .slot {
@@ -260,6 +261,7 @@ header {
 	transition: transform 0.3s ease;
 	border-radius: 28px;
 	padding: 1.5rem;
+	height: 100%;
 }
 
 #produtos_img {
