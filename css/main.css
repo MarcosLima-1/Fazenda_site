@@ -241,7 +241,7 @@ header {
 
 .produtos {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-template-columns: repeat(4, 1fr);
 	justify-items: center;
 	gap: 1rem;
 	width: 100%;
@@ -535,7 +535,11 @@ footer {
 
 /* ---------- resposive ---------- */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
+	.produtos{	grid-template-columns: repeat(3, 1fr);}
+}
+
+@media screen and (max-width: 800px) {
 	.conteudo_1 {
 		text-align: center;
 	}
