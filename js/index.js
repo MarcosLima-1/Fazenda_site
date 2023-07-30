@@ -4,7 +4,7 @@ function gtag() {
 }
 gtag("js", new Date());
 
-gtag("config", "G-DBJ3NJBZNK");
+gtag("config", "G-V47JNE8GE4");
 
 const btu = document.getElementById("buttonup");
 window.addEventListener("scroll", ocultar);

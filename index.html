@@ -1,300 +1,359 @@
 <!DOCTYPE html>
 <html lang="pt-br" manifest="manifest.appcache">
-	<head>
-		<title>Fazenda São José</title>
+  <head>
+    <title>Fazenda São José</title>
 
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-compatible" content="ie=edge" />
-		<meta
-			name="description"
-			content="A Fazenda São José oferece produtos agrícolas de alta qualidade, incluindo Milho, Sorgo, Soja e Ureia. Venha conhecer nossos produtos e potencialize sua produção."
-		/>
-		<meta property="og:image" content="https://www.fazendassaojose.com.br/assets/Logo.webp" />
-		<meta property="og:title" content="Fazendas São josé" />
-		<meta
-			property="og:description"
-			content="A Fazenda São José oferece produtos agrícolas de alta qualidade, incluindo Milho, Sorgo, Soja e Ureia. Venha conhecer nossos produtos e potencialize sua produção."
-		/>
-		<meta property="og:url" content="https://www.fazendassaojose.com.br" />
-		<meta property="og:site_name" content="Fazendas São josé" />
-		<link rel="icon" href="./assets/Logo.svg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="A Fazenda São José oferece produtos agrícolas de alta qualidade, incluindo Milho, Sorgo, Soja e Ureia. Venha conhecer nossos produtos e potencialize sua produção." />
+    <meta property="og:image" content="https://www.fazendassaojose.com.br/assets/Logo.webp" />
+    <meta property="og:title" content="Fazendas São josé" />
+    <meta
+      property="og:description"
+      content="A Fazenda São José oferece produtos agrícolas de alta qualidade, incluindo Milho, Sorgo, Soja e Ureia. Venha conhecer nossos produtos e potencialize sua produção." />
+    <meta property="og:url" content="https://www.fazendassaojose.com.br" />
+    <meta property="og:site_name" content="Fazendas São josé" />
+    <link rel="icon" href="./assets/Logo.svg" />
 
-		<meta name="keywords" content="Fazenda São José, Milho, Sorgo, Soja, Ureia, agricultura, produtos agrícolas" />
-		<meta name="author" content="Christian & Marcos" />
-		<meta name="revisit-after" content="15 days" />
-		<meta name="copyright" content="© 2019 Fazenda São José" />
+    <meta name="keywords" content="Fazenda São José, Milho, Sorgo, Soja, Ureia, agricultura, produtos agrícolas" />
+    <meta name="author" content="Christian & Marcos" />
+    <meta name="revisit-after" content="15 days" />
+    <meta name="copyright" content="© 2019 Fazenda São José" />
 
-		<link rel="stylesheet" type="text/css" href="./css/main.css" />
-		<script defer src="./js/index.js"></script>
-		<script async defer src="https://www.googletagmanager.com/gtag/js?id=G-DBJ3NJBZNK"></script>
-		<script defer src="https://kit.fontawesome.com/6ffe26f1f6.js" crossorigin="anonymous"></script>
-	</head>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <script defer src="./js/index.js"></script>
+    <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-DBJ3NJBZNK"></script>
+    <script defer src="https://kit.fontawesome.com/6ffe26f1f6.js" crossorigin="anonymous"></script>
+  </head>
 
-	<body>
-		<header id="header">
-			<div class="header" id="header_css">
-				<nav class="Menu_options">
-					<a href="https://www.fazendassaojose.com.br" class="stext logo" aria-label="Voltar para o início">
-						<img src="./assets/Logo.svg" draggable="false" class="img hlogo_icon" alt="" loading="lazy" />
-					</a>
-					<ul class="Menu_options_list">
-						<li><a href="#about" class="ptext">Sobre nós</a></li>
-						<li><a href="#produtos" class="ptext">Produtos</a></li>
-						<li><a href="#contatos" class="ptext">Contatos</a></li>
-						<li><hr class="vertical-line" /></li>
-						<li><a href="./produtos.html" class="button">Preços</a></li>
-					</ul>
-				</nav>
+  <body>
+    <header id="header">
+      <div class="header" id="header_css">
+        <nav class="Menu_options">
+          <a href="https://www.fazendassaojose.com.br" class="stext logo" aria-label="Voltar para o início">
+            <img src="./assets/Logo.svg" draggable="false" class="img hlogo_icon" alt="" loading="lazy" />
+          </a>
+          <ul class="Menu_options_list">
+            <li><a href="#about" class="ptext">Sobre nós</a></li>
+            <li><a href="#produtos" class="ptext">Produtos</a></li>
+            <li><a href="#contatos" class="ptext">Contatos</a></li>
+            <li><hr class="vertical-line" /></li>
+            <li><a href="./produtos.html" class="button">Preços</a></li>
+          </ul>
+        </nav>
 
-				<button aria-label="Contatos" class="button" id="menu_bar_button" onclick="toggleDiv()">
-					<i class="fa-solid fa-bars"></i>
-				</button>
-			</div>
+        <button aria-label="Contatos" class="button" id="menu_bar_button" onclick="toggleDiv()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
 
-			<nav class="menu_bar_nav" id="menu_bar_nav">
-				<ul class="Menu_bar">
-					<li><a href="./produtos.html" class="button">Preços</a></li>
-					<li><hr class="horizontal-line" /></li>
-					<li>
-						<a onclick="toggleDiv()" class="button" href="#contatos">Contatos</a>
-					</li>
-					<li>
-						<a onclick="toggleDiv()" class="button" href="#produtos">Produtos</a>
-					</li>
-					<li>
-						<a onclick="toggleDiv()" class="button" href="#about">Sobre nós</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+      <nav class="menu_bar_nav" id="menu_bar_nav">
+        <ul class="Menu_bar">
+          <li><a href="./produtos.html" class="button">Preços</a></li>
+          <li><hr class="horizontal-line" /></li>
+          <li>
+            <a onclick="toggleDiv()" class="button" href="#contatos">Contatos</a>
+          </li>
+          <li>
+            <a onclick="toggleDiv()" class="button" href="#produtos">Produtos</a>
+          </li>
+          <li>
+            <a onclick="toggleDiv()" class="button" href="#about">Sobre nós</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-		<main>
-			<section class="section_1" id="welcome">
-				<div class="glass">
-					<div class="conteudo_1">
-						<h1>Fazenda São josé</h1>
-						<p>Da nossa fazenda para a sua mesa: qualidade cultivada com carinho e sabor colhido na hora!</p>
-						<a href="#about" class="button">Sobre Nós</a>
-					</div>
-				</div>
-			</section>
+    <main>
+      <section class="section_1" id="welcome">
+        <div class="glass">
+          <div class="conteudo_1">
+            <h1>Fazenda São josé</h1>
+            <p>Da nossa fazenda para a sua mesa: qualidade cultivada com carinho e sabor colhido na hora!</p>
+            <a href="#about" class="button">Sobre Nós</a>
+          </div>
+        </div>
+      </section>
 
-			<section class="section_2" id="about">
-				<div class="conteudo_2">
-					<img src="./assets/Sobre.webp" draggable="false" class="img" id="sobre_img" alt="" loading="lazy" />
-					<div class="texts_2">
-						<h1>Sobre Nós</h1>
-						<p class="ptext text50">
-							A Fazenda São José é sua parceira na produção de alimentos. Oferecemos soluções em nutrição animal para gado de corte, gado de leite, aves e suínos. Além disso, trabalhamos com cultivo e
-							comercialização de grãos como soja, sorgo, milho e ureia. Conecte-se conosco e descubra as oportunidades do campo. Clique abaixo para falar conosco via WhatsApp ou telefone e faça
-							negócios direto da nossa terra para você.
-						</p>
-					</div>
-				</div>
-			</section>
+      <section class="section_2" id="about">
+        <div class="conteudo_2">
+          <img src="./assets/Sobre.webp" draggable="false" class="img" id="sobre_img" alt="" loading="lazy" />
+          <div class="texts_2">
+            <h1>Sobre Nós</h1>
+            <p class="ptext text50">
+              A Fazenda São José é sua parceira na produção de alimentos. Oferecemos soluções em nutrição animal para
+              gado de corte, gado de leite, aves e suínos. Além disso, trabalhamos com cultivo e comercialização de
+              grãos como soja, sorgo, milho e ureia. Conecte-se conosco e descubra as oportunidades do campo. Clique
+              abaixo para falar conosco via WhatsApp ou telefone e faça negócios direto da nossa terra para você.
+            </p>
+          </div>
+        </div>
+      </section>
 
-			<section class="section_3" id="produtos">
-				<div class="conteudo_3">
-					<h1>Produtos</h1>
-					<div class="produtos" id="pwebdev">
-						<div class="produto">
-							<div class="slot">
-								<img src="./assets/Milho.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
-								<h2>Milho</h2>
-								<h3>sobre:</h3>
-								<p>
-									O Milho é uma cultura amplamente cultivada em todo o país, com destaque para os Estados do Paraná, Mato Grosso, Goiás e São Paulo. As tecnologias modernas de produção têm contribuído
-									para o aumento dos rendimentos do Milho, mesmo enfrentando desafios ambientais. Com o uso de híbridos de alto potencial genético e práticas de manejo do solo aprimoradas, os
-									rendimentos de grãos do Milho podem variar entre 6.000 e 9.000 kg/ha.
-								</p>
-								<div class="slotbuttons">
-									<a href="./produtos.html" class="button buybutton">Cotação</a>
-								</div>
-							</div>
-						</div>
+      <section class="section_3" id="produtos">
+        <div class="conteudo_3">
+          <h1>Produtos</h1>
+          <div class="produtos" id="pwebdev">
+            <div class="produto">
+              <div class="slot">
+                <img src="./assets/Milho.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
+                <h2>Milho</h2>
+                <h3>sobre:</h3>
+                <p>
+                  O Milho é uma cultura amplamente cultivada em todo o país, com destaque para os Estados do Paraná,
+                  Mato Grosso, Goiás e São Paulo. As tecnologias modernas de produção têm contribuído para o aumento dos
+                  rendimentos do Milho, mesmo enfrentando desafios ambientais. Com o uso de híbridos de alto potencial
+                  genético e práticas de manejo do solo aprimoradas, os rendimentos de grãos do Milho podem variar entre
+                  6.000 e 9.000 kg/ha.
+                </p>
+                <div class="slotbuttons">
+                  <a href="./produtos.html" class="button buybutton">Cotação</a>
+                </div>
+              </div>
+            </div>
 
-						<div class="produto">
-							<div class="slot">
-								<img src="./assets/Milhomoido.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
-								<h2>Milho Moído</h2>
-								<h3>sobre:</h3>
-								<p>
-									O milho moído, conhecido como fubá, é um ingrediente versátil com diversas aplicações. Além de ser usado na culinária para preparar pratos como polenta e bolos, é empregado na
-									alimentação animal, na indústria de alimentos, na produção de bebidas e em produtos não alimentícios, como bioplásticos e papel. Sua versatilidade e utilidade tornam o milho moído
-									uma commodity de valor em várias áreas, contribuindo para a economia e o bem-estar em diferentes setores.
-								</p>
-								<div class="slotbuttons">
-									<a href="./produtos.html" class="button buybutton">Cotação</a>
-								</div>
-							</div>
-						</div>
+            <div class="produto">
+              <div class="slot">
+                <img
+                  src="./assets/Milhomoido.webp"
+                  draggable="false"
+                  class="img"
+                  id="produtos_img"
+                  alt=""
+                  loading="lazy" />
+                <h2>Milho Moído</h2>
+                <h3>sobre:</h3>
+                <p>
+                  O milho moído, conhecido como fubá, é um ingrediente versátil com diversas aplicações. Além de ser
+                  usado na culinária para preparar pratos como polenta e bolos, é empregado na alimentação animal, na
+                  indústria de alimentos, na produção de bebidas e em produtos não alimentícios, como bioplásticos e
+                  papel. Sua versatilidade e utilidade tornam o milho moído uma commodity de valor em várias áreas,
+                  contribuindo para a economia e o bem-estar em diferentes setores.
+                </p>
+                <div class="slotbuttons">
+                  <a href="./produtos.html" class="button buybutton">Cotação</a>
+                </div>
+              </div>
+            </div>
 
-						<div class="produto">
-							<div class="slot">
-								<img src="./assets/Sorgo.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
-								<h2>Sorgo</h2>
-								<h3>sobre:</h3>
-								<p>
-									O Sorgo também tem ganhado destaque na agricultura brasileira, especialmente nos Estados de Minas Gerais, Goiás e Mato Grosso do Sul. Com sua adaptabilidade a diferentes condições
-									climáticas, essa cultura tem se mostrado uma opção viável para a produção de grãos e forragem. Através de técnicas avançadas e manejo adequado do solo, os rendimentos de grãos de
-									Sorgo podem atingir entre 2.000 e 3.500 kg/ha.
-								</p>
-								<div class="slotbuttons">
-									<a href="./produtos.html" class="button buybutton">Cotação</a>
-								</div>
-							</div>
-						</div>
+            <div class="produto">
+              <div class="slot">
+                <img src="./assets/Sorgo.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
+                <h2>Sorgo</h2>
+                <h3>sobre:</h3>
+                <p>
+                  O Sorgo também tem ganhado destaque na agricultura brasileira, especialmente nos Estados de Minas
+                  Gerais, Goiás e Mato Grosso do Sul. Com sua adaptabilidade a diferentes condições climáticas, essa
+                  cultura tem se mostrado uma opção viável para a produção de grãos e forragem. Através de técnicas
+                  avançadas e manejo adequado do solo, os rendimentos de grãos de Sorgo podem atingir entre 2.000 e
+                  3.500 kg/ha.
+                </p>
+                <div class="slotbuttons">
+                  <a href="./produtos.html" class="button buybutton">Cotação</a>
+                </div>
+              </div>
+            </div>
 
-						<div class="produto">
-							<div class="slot">
-								<img src="./assets/Soja.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
-								<h2>Soja</h2>
-								<h3>sobre:</h3>
-								<p>
-									a Soja é amplamente cultivada em diversas regiões do Brasil, como o Mato Grosso, Paraná, Rio Grande do Sul e Goiás. O uso de tecnologias avançadas de produção tem impulsionado o
-									aumento dos rendimentos dessa cultura, mesmo diante dos desafios ambientais. Os agricultores têm acesso a híbridos de alto potencial genético, práticas aprimoradas de manejo do solo
-									e estudos que se adaptam às particularidades de cada genótipo e região.
-								</p>
-								<div class="slotbuttons">
-									<a href="./produtos.html" class="button buybutton">Cotação</a>
-								</div>
-							</div>
-						</div>
+            <div class="produto">
+              <div class="slot">
+                <img src="./assets/Soja.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
+                <h2>Soja</h2>
+                <h3>sobre:</h3>
+                <p>
+                  a Soja é amplamente cultivada em diversas regiões do Brasil, como o Mato Grosso, Paraná, Rio Grande do
+                  Sul e Goiás. O uso de tecnologias avançadas de produção tem impulsionado o aumento dos rendimentos
+                  dessa cultura, mesmo diante dos desafios ambientais. Os agricultores têm acesso a híbridos de alto
+                  potencial genético, práticas aprimoradas de manejo do solo e estudos que se adaptam às
+                  particularidades de cada genótipo e região.
+                </p>
+                <div class="slotbuttons">
+                  <a href="./produtos.html" class="button buybutton">Cotação</a>
+                </div>
+              </div>
+            </div>
 
-						<div class="produto">
-							<div class="slot">
-								<img src="./assets/Farelodesoja.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
-								<h2>Farelo de soja 46% proteína cargill</h2>
-								<h3>sobre:</h3>
-								<p>
-									O farelo de soja 46% proteína da Cargill é um produto valorizado, obtido da extração do óleo de soja. Amplamente usado na alimentação animal para promover o crescimento saudável,
-									também agrega valor nutricional em alimentos humanos e é aplicado na produção de biocombustíveis, sendo uma opção versátil e estratégica.
-								</p>
-								<div class="slotbuttons">
-									<a href="./produtos.html" class="button buybutton">Cotação</a>
-								</div>
-							</div>
-						</div>
+            <div class="produto">
+              <div class="slot">
+                <img
+                  src="./assets/Farelodesoja.webp"
+                  draggable="false"
+                  class="img"
+                  id="produtos_img"
+                  alt=""
+                  loading="lazy" />
+                <h2>Farelo de soja 46% proteína cargill</h2>
+                <h3>sobre:</h3>
+                <p>
+                  O farelo de soja 46% proteína da Cargill é um produto valorizado, obtido da extração do óleo de soja.
+                  Amplamente usado na alimentação animal para promover o crescimento saudável, também agrega valor
+                  nutricional em alimentos humanos e é aplicado na produção de biocombustíveis, sendo uma opção versátil
+                  e estratégica.
+                </p>
+                <div class="slotbuttons">
+                  <a href="./produtos.html" class="button buybutton">Cotação</a>
+                </div>
+              </div>
+            </div>
 
-						<div class="produto">
-							<div class="slot">
-								<img src="./assets/Cascadesoja.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
-								<h2>Casca de soja</h2>
-								<h3>sobre:</h3>
-								<p>
-									A casca de soja é um subproduto valioso e sustentável do processamento de soja. Rica em nutrientes, é utilizada na alimentação animal como fonte de fibra e também em diversas
-									aplicações industriais, como biocombustíveis, papel e aditivos. Sua versatilidade contribui para a economia circular e o desenvolvimento sustentável.
-								</p>
-								<div class="slotbuttons">
-									<a href="./produtos.html" class="button buybutton">Cotação</a>
-								</div>
-							</div>
-						</div>
+            <div class="produto">
+              <div class="slot">
+                <img
+                  src="./assets/Cascadesoja.webp"
+                  draggable="false"
+                  class="img"
+                  id="produtos_img"
+                  alt=""
+                  loading="lazy" />
+                <h2>Casca de soja</h2>
+                <h3>sobre:</h3>
+                <p>
+                  A casca de soja é um subproduto valioso e sustentável do processamento de soja. Rica em nutrientes, é
+                  utilizada na alimentação animal como fonte de fibra e também em diversas aplicações industriais, como
+                  biocombustíveis, papel e aditivos. Sua versatilidade contribui para a economia circular e o
+                  desenvolvimento sustentável.
+                </p>
+                <div class="slotbuttons">
+                  <a href="./produtos.html" class="button buybutton">Cotação</a>
+                </div>
+              </div>
+            </div>
 
-						<div class="produto">
-							<div class="slot">
-								<img src="./assets/Oleodegomado.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
-								<h2>Óleo degomado 4% acidez</h2>
-								<h3>sobre:</h3>
-								<p>
-									O óleo degomado com 4% de acidez é um produto refinado de alta qualidade, obtido do processamento do óleo vegetal bruto. Com baixa acidez, é amplamente utilizado na culinária e na
-									indústria alimentícia, cosmética e farmacêutica. Sua pureza e versatilidade o tornam uma escolha valiosa para aprimorar o sabor e a qualidade de diversos produtos.
-								</p>
-								<div class="slotbuttons">
-									<a href="./produtos.html" class="button buybutton">Cotação</a>
-								</div>
-							</div>
-						</div>
+            <div class="produto">
+              <div class="slot">
+                <img
+                  src="./assets/Oleodegomado.webp"
+                  draggable="false"
+                  class="img"
+                  id="produtos_img"
+                  alt=""
+                  loading="lazy" />
+                <h2>Óleo degomado 4% acidez</h2>
+                <h3>sobre:</h3>
+                <p>
+                  O óleo degomado com 4% de acidez é um produto refinado de alta qualidade, obtido do processamento do
+                  óleo vegetal bruto. Com baixa acidez, é amplamente utilizado na culinária e na indústria alimentícia,
+                  cosmética e farmacêutica. Sua pureza e versatilidade o tornam uma escolha valiosa para aprimorar o
+                  sabor e a qualidade de diversos produtos.
+                </p>
+                <div class="slotbuttons">
+                  <a href="./produtos.html" class="button buybutton">Cotação</a>
+                </div>
+              </div>
+            </div>
 
-						<div class="produto">
-							<div class="slot">
-								<img src="./assets/Oleorefinado.webp" draggable="false" class="img" id="produtos_img" alt="" loading="lazy" />
-								<h2>Óleo de soja refinado</h2>
-								<h3>sobre:</h3>
-								<p>
-									O óleo de soja refinado é um produto de alta qualidade, obtido a partir do processamento do óleo bruto de soja. Com suas excelentes propriedades de cozimento, é amplamente utilizado
-									na culinária doméstica e na indústria alimentícia para frituras, refogados e preparação de diversos pratos. Sua versatilidade e benefícios nutricionais tornam-no uma escolha
-									confiável para cozinheiros e fabricantes de alimentos em todo o mundo.
-								</p>
-								<div class="slotbuttons">
-									<a href="./produtos.html" class="button buybutton">Cotação</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a href="./produtos.html"><h1 class="more button">Mais Produtos</h1></a>
-				</div>
-			</section>
+            <div class="produto">
+              <div class="slot">
+                <img
+                  src="./assets/Oleorefinado.webp"
+                  draggable="false"
+                  class="img"
+                  id="produtos_img"
+                  alt=""
+                  loading="lazy" />
+                <h2>Óleo de soja refinado</h2>
+                <h3>sobre:</h3>
+                <p>
+                  O óleo de soja refinado é um produto de alta qualidade, obtido a partir do processamento do óleo bruto
+                  de soja. Com suas excelentes propriedades de cozimento, é amplamente utilizado na culinária doméstica
+                  e na indústria alimentícia para frituras, refogados e preparação de diversos pratos. Sua versatilidade
+                  e benefícios nutricionais tornam-no uma escolha confiável para cozinheiros e fabricantes de alimentos
+                  em todo o mundo.
+                </p>
+                <div class="slotbuttons">
+                  <a href="./produtos.html" class="button buybutton">Cotação</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="./produtos.html"><h1 class="more button">Mais Produtos</h1></a>
+        </div>
+      </section>
 
-			<section class="section_4" id="contatos">
-				<div class="conteudo_4">
-					<h1>Contatos</h1>
-					<div class="contatos">
-						<div class="contacticons">
-							<div class="contacticons1">
-								<i class="fa-solid fa-envelope"></i>
-								<a href="mailto:grupo@fazendassaojose.com.br" target="_blank" class="email bborder">grupo@fazendassaojose.com.br</a>
-							</div>
+      <section class="section_4" id="contatos">
+        <div class="conteudo_4">
+          <h1>Contatos</h1>
+          <div class="contatos">
+            <div class="contacticons">
+              <div class="contacticons1">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:grupo@fazendassaojose.com.br" target="_blank" class="email bborder"
+                  >grupo@fazendassaojose.com.br</a
+                >
+              </div>
 
-							<div class="contacticons1">
-								<i class="fa-brands fa-whatsapp"></i>
-								<a onclick="gtag_report_conversion()" href="https://api.whatsapp.com/send?phone=5544991384767" target="_blank" class="bborder">44 99138-4767</a>
-							</div>
+              <div class="contacticons1">
+                <i class="fa-brands fa-whatsapp"></i>
+                <a
+                  onclick="gtag_report_conversion()"
+                  href="https://api.whatsapp.com/send?phone=5544991384767"
+                  target="_blank"
+                  class="bborder"
+                  >44 99138-4767</a
+                >
+              </div>
 
-							<div class="contacticons1">
-								<i class="fa-brands fa-whatsapp"></i>
-								<a onclick="gtag_report_conversion()" href="https://api.whatsapp.com/send?phone=5544991813819" target="_blank" class="bborder">44 99181-3819</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
+              <div class="contacticons1">
+                <i class="fa-brands fa-whatsapp"></i>
+                <a
+                  onclick="gtag_report_conversion()"
+                  href="https://api.whatsapp.com/send?phone=5544991813819"
+                  target="_blank"
+                  class="bborder"
+                  >44 99181-3819</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-		<footer>
-			<div class="Divisor_do_Footer">
-				<!-- footer_Social_links_footer -->
-				<div class="Social_links_footer">
-					<img src="./assets/Logo.svg" draggable="false" class="img flogo_icon" alt="" loading="lazy" />
-					<p class="texto_motivacao">Da nossa fazenda para sua prosperidade!</p>
-				</div>
+    <footer>
+      <div class="Divisor_do_Footer">
+        <!-- footer_Social_links_footer -->
+        <div class="Social_links_footer">
+          <img src="./assets/Logo.svg" draggable="false" class="img flogo_icon" alt="" loading="lazy" />
+          <p class="texto_motivacao">Da nossa fazenda para sua prosperidade!</p>
+        </div>
 
-				<!-- footer_Sobre_empresa -->
-				<nav class="Sobre_empresa">
-					<ul>
-						<li>
-							<h2><strong>Sobre nós</strong></h2>
-						</li>
-						<li class="Footer_links">
-							<a href="#about" class="ptext">Quem somos</a>
-						</li>
-					</ul>
-				</nav>
+        <!-- footer_Sobre_empresa -->
+        <nav class="Sobre_empresa">
+          <ul>
+            <li>
+              <h2><strong>Sobre nós</strong></h2>
+            </li>
+            <li class="Footer_links">
+              <a href="#about" class="ptext">Quem somos</a>
+            </li>
+          </ul>
+        </nav>
 
-				<!-- footer_Ferramentas -->
+        <!-- footer_Ferramentas -->
 
-				<nav class="Ferramentas">
-					<ul>
-						<li>
-							<h2><strong>Plataforma</strong></h2>
-						</li>
-						<li class="Footer_links">
-							<a href="./produtos.html" class="ptext">Preços</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+        <nav class="Ferramentas">
+          <ul>
+            <li>
+              <h2><strong>Plataforma</strong></h2>
+            </li>
+            <li class="Footer_links">
+              <a href="./produtos.html" class="ptext">Preços</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-			<!-- footer_Legal -->
+      <!-- footer_Legal -->
 
-			<div class="Legal">
-				<p>copyright <i class="fa-regular fa-copyright"></i> 2023 São José</p>
-			</div>
-		</footer>
+      <div class="Legal">
+        <p>copyright <i class="fa-regular fa-copyright"></i> 2023 São José</p>
+      </div>
+    </footer>
 
-		<div onclick="scrollup()" id="buttonup" style="display: none">
-			<i class="fa-solid fa-arrow-up"></i>
-		</div>
-	</body>
+    <div onclick="scrollup()" id="buttonup" style="display: none">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+  </body>
 </html>
