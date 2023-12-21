@@ -562,20 +562,21 @@
 				<p>copyright <i class="fa-regular fa-copyright"></i> 2023 São José</p>
 			</div>
 		</footer>
-
-		<div
-			onclick="scrollup()"
-			id="buttonup"
-      style="display: none;"
-			class="arrow_overlay">
-			<i class="fa-solid fa-arrow-up"></i>
+		<div class="buttons_overlay">
+			<div
+				onclick="scrollup()"
+				id="buttonup"
+				style="display: none"
+				class="arrow_overlay">
+				<i class="fa-solid fa-arrow-up"></i>
+			</div>
+			<a
+				onclick="gtag_report_conversion()"
+				href="https://api.whatsapp.com/send?phone=5544991813819"
+				target="_blank"
+				class="whatsapp_overlay">
+				<i class="fa-brands fa-whatsapp"></i>
+			</a>
 		</div>
-		<a
-			onclick="gtag_report_conversion()"
-			href="https://api.whatsapp.com/send?phone=5544991813819"
-			target="_blank"
-			class="whatsapp_overlay">
-			<i class="fa-brands fa-whatsapp"></i>
-		</a>
 	</body>
 </html>

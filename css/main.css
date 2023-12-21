@@ -11,21 +11,21 @@ html {
 }
 
 @font-face {
-	font-family: 'Cabin';
 	src: local('sans serif'), local('sans-serif'), url(../assets/Cabin.ttf);
+	font-family: 'Cabin';
 	font-display: swap;
 }
 
 * {
 	box-sizing: border-box;
-	font-family: 'Cabin', sans-serif;
-	text-decoration: none;
-	list-style: none;
 
 	margin: 0;
 	padding: 0;
 
 	color: var(--text);
+	font-family: 'Cabin', sans-serif;
+	list-style: none;
+	text-decoration: none;
 }
 
 body {
@@ -39,17 +39,17 @@ h1 {
 }
 
 .button {
-	background-color: var(--primary-button);
-	color: var(--text);
+	display: inline-block;
 	align-items: center;
-	font-size: 18px;
-	font-weight: 800;
-	font-style: normal;
-	text-decoration: none;
 	padding: 10px 10px;
 	border: 0px solid #000;
 	border-radius: 10px;
-	display: inline-block;
+	background-color: var(--primary-button);
+	color: var(--text);
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	text-decoration: none;
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -69,38 +69,38 @@ h1 {
 
 .bg_img {
 	display: block;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	border-radius: 28px;
 	height: 100%;
 	border: solid 2px var(--accent);
+	border-radius: 28px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /* ---------- header ---------- */
 
 header {
 	display: flex;
-	flex-direction: column;
-	position: absolute;
 	z-index: 9999;
-	background-color: var(--secondary-button);
-	padding: 10px;
-	width: 100%;
+	position: absolute;
+	flex-direction: column;
 	align-items: center;
+	width: 100%;
+	padding: 10px;
+	background-color: var(--secondary-button);
 }
 
 .header {
 	display: flex;
-	width: 90%;
 	justify-content: space-between;
+	width: 90%;
 }
 
 .logo {
 	display: flex;
 	align-items: center;
-	color: var(--color-Accent);
 	gap: 0.3rem;
+	color: var(--color-Accent);
 }
 
 .hlogo_icon {
@@ -110,15 +110,15 @@ header {
 .Menu_options {
 	display: flex;
 	align-items: center;
-	width: 100%;
 	justify-content: space-between;
+	width: 100%;
 }
 
 .Menu_options_list {
 	display: flex;
-	gap: 2rem;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	gap: 2rem;
 }
 
 .Menu_options_list a {
@@ -126,17 +126,15 @@ header {
 }
 
 .vertical-line {
-	border: none;
-
 	height: 20px;
+	border: none;
 
 	border-left: 2px solid var(--text);
 }
 
 .horizontal-line {
-	border: none;
-
 	width: 90%;
+	border: none;
 
 	border-top: 2px solid var(--text);
 }
@@ -149,8 +147,8 @@ header {
 }
 
 .barsolid {
-	height: 16px;
 	width: 16px;
+	height: 16px;
 }
 
 #menu_bar_button {
@@ -162,35 +160,35 @@ header {
 
 .section_1 {
 	background-image: url('../assets/Welcome.webp');
-	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .conteudo_1 {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	width: 90%;
 
 	height: 100vh;
-	width: 90%;
 	gap: 1rem;
 }
 
 .glass {
+	-webkit-backdrop-filter: blur(10px);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	backdrop-filter: blur(10px);
 	background: linear-gradient(
 		135deg,
 		rgba(255, 255, 255, 0.1),
 		rgba(255, 255, 255, 0)
 	);
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
-	width: 100%;
-	height: 100vh;
 }
 
 .conteudo_1 .button {
@@ -208,18 +206,18 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 2rem;
 	width: 90%;
 	margin: auto;
 	padding: 2rem 0 2rem 0;
+	gap: 2rem;
 }
 
 .texts_2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 1rem;
 	width: 50%;
+	gap: 1rem;
 }
 
 #sobre_img {
@@ -236,36 +234,36 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
-	gap: 2rem;
 	width: 95%;
 	margin: auto;
 	padding: 2rem 0 2rem 0;
+
+	gap: 2rem;
 }
 
 .produtos {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	justify-items: center;
-	gap: 1rem;
 	width: 100%;
+	gap: 1rem;
 }
 
 .more {
-	font-size: 2.7rem;
 	margin-top: 25px;
+	font-size: 2.7rem;
 }
 
 .slot {
-	background-color: var(--secondary-button);
 	display: flex;
 	flex-direction: column;
-	margin: 20px 0 20px 0;
-	gap: 1rem;
-	transition: transform 0.3s ease;
-	border-radius: 28px;
-	padding: 1.5rem;
 	height: 100%;
+	margin: 20px 0 20px 0;
+	padding: 1.5rem;
+	gap: 1rem;
+	border-radius: 28px;
+	background-color: var(--secondary-button);
+	transition: transform 0.3s ease;
 }
 
 #produtos_img {
@@ -277,8 +275,8 @@ header {
 }
 .slotbuttons a {
 	width: 100%;
-	text-align: center;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+	text-align: center;
 }
 
 .buybutton {
@@ -305,17 +303,17 @@ header {
 .contatos {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
-	width: 60%;
 	align-items: center;
 	justify-content: center;
+	width: 60%;
+	gap: 2rem;
 	background-color: var(--secondary-button);
 	transition: transform ease 0.3s;
 }
 
 .contatos a {
-	font-size: 1.5rem;
 	font-weight: 500;
+	font-size: 1.5rem;
 }
 
 .contatos a:hover {
@@ -329,16 +327,16 @@ header {
 }
 
 .contacticons i {
-	color: var(--text);
-	font-size: 90px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 30px;
 	height: 30px;
-	font-size: 20px;
 	border-radius: 50%;
 	background-color: var(--accent);
+	color: var(--text);
+	font-size: 90px;
+	font-size: 20px;
 }
 
 .contacticons1 {
@@ -349,28 +347,33 @@ header {
 }
 
 .contatos_squares {
-	width: 90%;
 	display: flex;
+	width: 90%;
+	gap: 1rem;
+}
+
+.buttons_overlay {
+	display: flex;
+	position: fixed;
+	right: 20px;
+	bottom: 50px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	gap: 1rem;
 }
 
 .whatsapp_overlay,
 .arrow_overlay {
-	position: fixed;
-	bottom: 50px;
-	right: 20px;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	cursor: pointer;
-
-	font-size: 25px;
 	width: 50px;
 	height: 50px;
 	border-radius: 28px;
-
 	background-color: var(--primary-button);
+	font-size: 25px;
+	cursor: pointer;
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -378,8 +381,9 @@ header {
 	bottom: 110px;
 }
 .whatsapp_overlay {
-	width: 55px;
-	height: 55px;
+	width: 58px;
+	height: 58px;
+	font-size: 33px;
 }
 .whatsapp_overlay:hover,
 .arrow_overlay:hover {
@@ -403,11 +407,11 @@ footer {
 .Divisor_do_Footer {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	justify-items: center;
 	align-items: center;
+	justify-items: center;
+	justify-items: center;
 	padding: 1rem;
 	gap: 1rem;
-	justify-items: center;
 }
 
 /*---Footer-Social_links_footer---*/
@@ -497,8 +501,8 @@ footer {
 	flex-direction: column;
 	width: 100%;
 	height: auto;
-	background-color: var(--secondary-button);
 	padding: 2rem;
+	background-color: var(--secondary-button);
 }
 
 .Menu_bar {
@@ -516,10 +520,10 @@ footer {
 
 .Menu_bar li {
 	display: flex;
-	width: 100%;
-	text-align: center;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	text-align: center;
 }
 
 .Menu_bar a {
@@ -598,9 +602,9 @@ footer {
 @media screen and (max-width: 600px) {
 	.Divisor_do_Footer {
 		display: grid;
+		grid-template-columns: repeat(1, 1fr);
 		align-items: center;
 		justify-items: center;
-		grid-template-columns: repeat(1, 1fr);
 	}
 
 	.Social_links_footer {
@@ -622,9 +626,9 @@ footer {
 @media screen and (max-width: 360px) {
 	.Divisor_do_Footer {
 		display: grid;
+		grid-template-columns: repeat(1, 1fr);
 		align-items: center;
 		justify-items: center;
-		grid-template-columns: repeat(1, 1fr);
 		padding: 1rem 1.5rem;
 	}
 }
