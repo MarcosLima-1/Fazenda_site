@@ -350,7 +350,7 @@ header {
 	gap: 1rem;
 }
 
-#buttonup {
+.whatsapp_overlay, .arrow_overlay {
 	position: fixed;
 	bottom: 50px;
 	right: 20px;
@@ -369,11 +369,15 @@ header {
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-#buttonup:hover {
+.arrow_overlay{
+	bottom: 110px;
+}
+
+.whatsapp_overlay:hover, .arrow_overlay:hover {
 	transform: scale(1.05);
 }
 
-#buttonup i {
+.whatsapp_overlay, .arrow_overlay i {
 	color: var(--text);
 }
 
