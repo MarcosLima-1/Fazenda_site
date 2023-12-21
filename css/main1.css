@@ -11,14 +11,15 @@ html {
 }
 
 @font-face {
-	font-family: "Cabin";
-	src: local("sans serif"), local("sans-serif"), url(../assets/Cabin.ttf);
+	font-family: 'Cabin';
+	src: local('sans serif'), local('sans-serif'), url(../assets/Cabin.ttf);
 	font-display: swap;
 }
 
 * {
 	box-sizing: border-box;
 	font-family: "Cabin", sans-serif;
+	font-family: 'Cabin', sans-serif;
 	text-decoration: none;
 	list-style: none;
 
@@ -273,7 +274,8 @@ header {
 	max-width: 500px;
 }
 
-#buttonup {
+.whatsapp_overlay,
+.arrow_overlay {
 	position: fixed;
 	bottom: 50px;
 	right: 20px;
@@ -292,11 +294,20 @@ header {
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-#buttonup:hover {
+.arrow_overlay {
+	bottom: 110px;
+}
+.whatsapp_overlay {
+	width: 55px;
+	height: 55px;
+}
+.whatsapp_overlay:hover,
+.arrow_overlay:hover {
 	transform: scale(1.05);
 }
 
-#buttonup i {
+.whatsapp_overlay,
+.arrow_overlay i {
 	color: var(--text);
 }
 

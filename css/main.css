@@ -11,14 +11,14 @@ html {
 }
 
 @font-face {
-	font-family: "Cabin";
-	src: local("sans serif"), local("sans-serif"), url(../assets/Cabin.ttf);
+	font-family: 'Cabin';
+	src: local('sans serif'), local('sans-serif'), url(../assets/Cabin.ttf);
 	font-display: swap;
 }
 
 * {
 	box-sizing: border-box;
-	font-family: "Cabin", sans-serif;
+	font-family: 'Cabin', sans-serif;
 	text-decoration: none;
 	list-style: none;
 
@@ -161,7 +161,7 @@ header {
 /* ---------- section 1 ---------- */
 
 .section_1 {
-	background-image: url("../assets/Welcome.webp");
+	background-image: url('../assets/Welcome.webp');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -182,7 +182,11 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+	background: linear-gradient(
+		135deg,
+		rgba(255, 255, 255, 0.1),
+		rgba(255, 255, 255, 0)
+	);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 	width: 100%;
@@ -350,7 +354,8 @@ header {
 	gap: 1rem;
 }
 
-.whatsapp_overlay, .arrow_overlay {
+.whatsapp_overlay,
+.arrow_overlay {
 	position: fixed;
 	bottom: 50px;
 	right: 20px;
@@ -369,15 +374,20 @@ header {
 	transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.arrow_overlay{
+.arrow_overlay {
 	bottom: 110px;
 }
-
-.whatsapp_overlay:hover, .arrow_overlay:hover {
+.whatsapp_overlay {
+	width: 55px;
+	height: 55px;
+}
+.whatsapp_overlay:hover,
+.arrow_overlay:hover {
 	transform: scale(1.05);
 }
 
-.whatsapp_overlay, .arrow_overlay i {
+.whatsapp_overlay,
+.arrow_overlay i {
 	color: var(--text);
 }
 
@@ -540,7 +550,9 @@ footer {
 /* ---------- resposive ---------- */
 
 @media screen and (max-width: 1100px) {
-	.produtos{	grid-template-columns: repeat(3, 1fr);}
+	.produtos {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 @media screen and (max-width: 800px) {
